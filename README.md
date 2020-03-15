@@ -38,7 +38,11 @@ The software stack looks like this:
 
 ## FAQ
 
-### Issue 01: Cannot install VMWare on a system that has Microsoft HyperV installed
+### Cannot install VMWare on a system that has Microsoft HyperV installed
 Microsoft's hypervisor HyperV comes with Windows 10. To disable/remove HyperV go to "Turn Windows features on or off"
 
 See also [How to Delete Hyper-V Virtual Machine in Windows 10](https://www.tenforums.com/tutorials/128821-delete-hyper-v-virtual-machine-windows-10-a.html)
+
+### How do I create a Hyper-V virtual machine
+
+Take a look at this [tutorial](https://www.youtube.com/watch?v=wfG4oFI5FIk)
