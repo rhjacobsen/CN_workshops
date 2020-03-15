@@ -17,7 +17,8 @@ Plan: Running GNS3 with a local server (VM image recommended in Windows)
 
 Steps: 
 - Downloading and installing GNS3 
-- I need to install https://www.vmware.com/support/developer/vix-api/. I am installing SDK 1.15.0 - need to run on top of VMware Fusion, VMware Workstation Pro, and VMware Player. I have an old VMWare player 6.0 installed on my machine. 
+- I need to install https://www.vmware.com/support/developer/vix-api/. I am installing SDK 1.15.0 - need to run on top of VMware Fusion, VMware Workstation Pro, and VMware Player. I have an old VMWare Workstation 15 Player installed on my machine. 
+- Download the GNS3 VM  [https://www.gns3.com/software/download-vm](https://www.gns3.com/software/download-vm)
 
 Note that some VMWare components cannot be installed on a system that has Microsoft HyperV installed. 
 
