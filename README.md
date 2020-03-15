@@ -43,6 +43,6 @@ Microsoft's hypervisor HyperV comes with Windows 10. To disable/remove HyperV go
 
 See also [How to Delete Hyper-V Virtual Machine in Windows 10](https://www.tenforums.com/tutorials/128821-delete-hyper-v-virtual-machine-windows-10-a.html)
 
-### How do I create a Hyper-V virtual machine
+### How do I create and configure a Hyper-V virtual machine
 
-Take a look at this [tutorial](https://www.youtube.com/watch?v=wfG4oFI5FIk)
+Take a look at this [tutorial](https://www.youtube.com/watch?v=wfG4oFI5FIk) to see how to configure a Hyper-V virtual machine for Windows 10.
