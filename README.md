@@ -19,7 +19,15 @@ Steps:
 - Downloading and installing GNS3 
 - I need to install https://www.vmware.com/support/developer/vix-api/. I am installing SDK 1.15.0 - need to run on top of VMware Fusion, VMware Workstation Pro, and VMware Player. I have an old VMWare player 6.0 installed on my machine.
 
+The software stack looks like this:
 ```
 +----------------+
 |      GNS3      |
++----------------+
+|     VIX API    |
++----------------+
+|     VMware     |
++----------------+
+|     Windows    |
++----------------+
 ```
