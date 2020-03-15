@@ -1,4 +1,4 @@
-FROM rhjacobsen/cn:base
+FROM kalledk/itifn:base
 
 MAINTAINER Rune Hylsberg Jacobsen <rhj@eng.au.dk>
 

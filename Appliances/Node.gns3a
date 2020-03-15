@@ -11,7 +11,7 @@
     "maintainer_email": "rhj@eng.au.dk",
     "docker": {
         "adapters": 1,
-        "image": "rhjacobsen/cn:node",
+        "image": "kalledk/itifn:node",
         "console_type": "telnet",
         "start_command": "/bin/entrypoint.sh"
     }
