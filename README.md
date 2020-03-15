@@ -8,7 +8,7 @@ To successfully run the GNS3 simulator, there are some (hardware requirements)(#
 There is a good about of [documentation for GNS3]([https://docs.gns3.com/).
 In addtions, GNS3 hosts a large amont of compatible network appliances in tje [GNS3 Market Place}(https://www.gns3.com/marketplace).
 
-When you have installed the GNS3, I recommend that you proceed to create [your first GNS3 topology](https://docs.gns3.com/1wr2j2jEfX6ihyzpXzC23wQ8ymHzID4K3Hn99-qqshfg/index.html) following the guidelines of David to get to know the GNS3 GUI.
+When you have installed the GNS3, I recommend that you proceed to create [your first GNS3 topology](https://docs.gns3.com/1wr2j2jEfX6ihyzpXzC23wQ8ymHzID4K3Hn99-qqshfg/index.html) following the guidelines of David Bombal to get to know the GNS3 GUI.
 
 <a name="hw_reqs"></a>
 ## Minimum hardware requirements
