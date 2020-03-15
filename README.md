@@ -47,6 +47,8 @@ See also [How to Delete Hyper-V Virtual Machine in Windows 10](https://www.tenfo
 
 Take a look at this [tutorial](https://www.youtube.com/watch?v=wfG4oFI5FIk) to see how to configure a Hyper-V virtual machine for Windows 10.
 
-### Fix for Error "https://www.youtube.com/watch?v=VIBdY-5zr58"
+### Fix for Error "VMware Workstation and Device/Credential Guard are not compatible Fix"
+
+See this [video](https://www.youtube.com/watch?v=VIBdY-5zr58)
 
 See also [https://docs.microsoft.com/en-us/windows/security/identity-protection/credential-guard/credential-guard-manage](https://docs.microsoft.com/en-us/windows/security/identity-protection/credential-guard/credential-guard-manage)
