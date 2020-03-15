@@ -52,3 +52,5 @@ Take a look at this [tutorial](https://www.youtube.com/watch?v=wfG4oFI5FIk) to s
 See this [video](https://www.youtube.com/watch?v=VIBdY-5zr58)
 
 See also [https://docs.microsoft.com/en-us/windows/security/identity-protection/credential-guard/credential-guard-manage](https://docs.microsoft.com/en-us/windows/security/identity-protection/credential-guard/credential-guard-manage)
+
+See also [Solved: Device/Credential Guard error on Windows 10 Home](https://communities.vmware.com/thread/584231)
