@@ -11,3 +11,10 @@ According to the GNS3 web page, the following are the minimum requirements for a
 - Memory: 4 GB RAM
 - Storage: 1GB available space.
 - Additional Notes: You may need additional storage for your operating system and device images.
+
+## Software installation
+Plan: Running GNS3 with a local server (VM image recommended in Windows)
+
+Steps: 
+- Downloading and installing GNS3 
+- I need to install https://www.vmware.com/support/developer/vix-api/
