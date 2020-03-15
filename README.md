@@ -5,6 +5,9 @@ The workshops are made for the GNS3 simulator. GNS3 is open source, free softwar
 
 To successfully run the GNS3 simulator, there are some (hardware requirements)(#hw_reqs) to consider.
 
+There is a good about of (documentation for GNS3)[https://docs.gns3.com/].
+
+
 <a name="hw_reqs"></a>
 ## Minimum hardware requirements
 
