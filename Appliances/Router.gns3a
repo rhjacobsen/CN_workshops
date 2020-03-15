@@ -1,0 +1,18 @@
+{
+    "name": "Router",
+    "category": "router",
+    "description": "ITIFN Router",
+    "vendor_name": "KalleDK",
+    "vendor_url": "https://github.com/KalleDK/docker-itifn",
+    "product_name": "ITIFNRouter",
+    "registry_version": 3,
+    "status": "experimental",
+    "maintainer": "KalleDK",
+    "maintainer_email": "docker@k-moeller.dk",
+    "docker": {
+        "adapters": 4,
+        "image": "kalledk/itifn:router",
+        "console_type": "telnet",
+        "start_command": "/bin/entrypoint.sh"
+    }
+}
