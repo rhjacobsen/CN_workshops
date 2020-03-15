@@ -3,7 +3,9 @@ This repository contains materials for the workshops in the bachelor course in c
 
 The workshops are made for the GNS3 simulator. GNS3 is open source, free software that you can download from [http://gns3.com](http://gns3.com)
 
-## Minimum hardware requirements 
+To successfully run the GNS3 simulator, there are some (hardware requirements)[#hw_reqs) to consider.
+
+<a name="hw_reqs">## Minimum hardware requirements</a>
 
 According to the GNS3 web page, the following are the minimum requirements for a Windows GNS3 environment:
 - Processor: 2 or more Logical cores
