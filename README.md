@@ -3,7 +3,7 @@ This repository contains materials for the workshops in the bachelor course in C
 
 The workshops are made for the GNS3 simulator. GNS3 is open source, free software that you can download from [http://gns3.com](http://gns3.com)
 
-To successfully run the GNS3 simulator, there are some (hardware requirements)(#hw_reqs) to consider. GNS3 is supported on Windows, Linux and MacOS. It comes with a bundled of various prerequisite and optional software such as the Wireshark protocol analyzer.
+To successfully run the GNS3 simulator, there are some [hardware requirements](#hw_reqs) to consider. GNS3 is supported on Windows, Linux and MacOS. It comes with a bundled of various prerequisite and optional software such as the Wireshark protocol analyzer.
 
 There is a good about of [documentation for GNS3]([https://docs.gns3.com/). It is recommended to install a GNS3 virtual machine (VM) in addtion to the desktop installation for better scaleabiity and robustness. The GNS3 server also contains a vast number of preinstalled network devices.
 In addtions, GNS3 hosts a large amont of compatible network appliances in the [GNS3 Market Place}(https://www.gns3.com/marketplace).
