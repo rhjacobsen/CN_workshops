@@ -29,6 +29,17 @@ According to the GNS3 web page, the following are the minimum requirements for a
 - Storage: 1GB available space.
 - Additional Notes: You may need additional storage for your operating system and device images.
 
+## Software installation steps
+
+1. Install GNS3
+1a. Install Docker (?)
+2. Run GNS3
+3. Import CN appliances Node + Router from appliance directory. This will create a template
+
+
+
+# Older notes below this line
+
 ## Software installation
 Plan: Running GNS3 with a local server (VM image recommended in Windows)
 
