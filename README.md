@@ -10,7 +10,7 @@ There is a good amount of [documentation for GNS3](https://docs.gns3.com/).
 When you create topologies in GNS3 using the software GUI client, the devices created need to be hosted and run by a server process. 
 You have a few options for the server part of the software:
 
-1. Local GNS3 server (see [setup Wizard](https://docs.gns3.com/docs/getting-started/setup-wizard-local-server))
+1. Local GNS3 server (see [Setup Wizard](https://docs.gns3.com/docs/getting-started/setup-wizard-local-server))
 2. Local GNS3 VM
 3. Remote GNS3 VM
 
