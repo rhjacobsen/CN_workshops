@@ -32,7 +32,7 @@ According to the GNS3 web page, the following are the minimum requirements for a
 ## Software installation steps
 
 1. Install GNS3
-2. Install Docker and configure [GNS3 for Docker](https://github.com/KalleDK/docker-itifn/tree/master/workshops)
+2. Install Docker and configure [GNS3 for Docker](https://github.com/KalleDK/docker-itifn/tree/master/workshops). ([Install Docker for Windows 10](https://docs.docker.com/docker-for-windows/install/))
 3. Clone the repository
 4. Pull the docker images 'docker pull kalledk/itifn'
 2. Run GNS3
