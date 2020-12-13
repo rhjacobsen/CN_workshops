@@ -32,7 +32,9 @@ According to the GNS3 web page, the following are the minimum requirements for a
 ## Software installation steps
 
 1. Install GNS3
-1a. Install Docker (?)
+2. Install Docker
+3. Clone the repository
+4. Pull the docker images 'docker pull kalledk/itifn'
 2. Run GNS3
 3. Import CN appliances Node + Router from appliance directory. This will create a template
 
