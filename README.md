@@ -5,7 +5,16 @@ The workshops are made for the GNS3 simulator. GNS3 is open source, free softwar
 
 To successfully run the GNS3 simulator, there are some [hardware requirements](#hw_reqs) to consider. GNS3 is supported on Windows, Linux and MacOS. It comes with a bundled of various prerequisite and optional software such as the Wireshark protocol analyzer.
 
-There is a good amount of [documentation for GNS3](https://docs.gns3.com/). It is recommended to install a GNS3 virtual machine (VM) in addtion to the desktop installation for better scalability and robustness. The GNS3 server also contains a vast number of preinstalled network devices.
+There is a good amount of [documentation for GNS3](https://docs.gns3.com/). 
+
+When you create topologies in GNS3 using the software GUI client, the devices created need to be hosted and run by a server process. 
+You have a few options for the server part of the software:
+
+1. Local GNS3 server
+2. Local GNS3 VM
+3. Remote GNS3 VM
+
+Note: It is recommended to install a GNS3 virtual machine (VM) in addtion to the desktop installation for better scalability and robustness. The GNS3 server also contains a vast number of preinstalled network devices.
 In addtions, GNS3 hosts a large amont of compatible network appliances in the [GNS3 Market Place](https://www.gns3.com/marketplace).
 
 When you have installed the GNS3, I recommend that you proceed to create [your first GNS3 topology](https://docs.gns3.com/docs/getting-started/your-first-gns3-topology/#!) following the guidelines to get to know the GNS3 GUI and to see if the GNS3 is installed correctly.
