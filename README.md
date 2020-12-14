@@ -1,11 +1,15 @@
 # Workshops in Computer Networks course
-This repository contains materials for the workshops in the bachelor course in Computer Networks at Aarhus University.
+This repository contains materials for the workshops in the computer engineering bachelor course in Computer Networks at Aarhus University.
 
 The workshops are made for the GNS3 simulator. GNS3 is open source, free software that you can download from [http://gns3.com](http://gns3.com)
 
-To successfully run the GNS3 simulator, there are some [hardware requirements](#hw_reqs) to consider. GNS3 is supported on Windows, Linux and MacOS. It comes with a bundled of various prerequisite and optional software such as the Wireshark protocol analyzer.
+To successfully run the GNS3 simulator, there are some [hardware requirements](#hw_reqs) to consider. GNS3 is supported on Windows, Linux and MacOS. It comes with a bundled of various prerequisite and optional software such as the Wireshark protocol analyzer. So far I have only tested the installation on Windows 10.
 
 There is a good amount of [documentation for GNS3](https://docs.gns3.com/). 
+
+## Installation of the environment 
+
+To run the workshops, we make use of [Docker support in GNS3](https://docs.gns3.com/docs/emulators/docker-support-in-gns3/#!). Note that Hyper-V and Containers Windows features must be enabled in Windows 10.
 
 When you create topologies in GNS3 using the software GUI client, the devices created need to be hosted and run by a server process. 
 You have a few options for the server part of the software:
