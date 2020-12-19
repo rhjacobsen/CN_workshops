@@ -42,7 +42,9 @@ According to the GNS3 web page, the following are the minimum requirements for a
 2. Run GNS3
 3. Import CN appliances Node + Router from appliance directory. This will create a template
 
+# Useful links
 
+- [Install GNS3 VM on Windows 10](https://summarynetworks.com/info-tlc/installing-gns3-vm-on-hyper-v-virtualization-platform-in-windows-10/)
 
 # Older notes below this line
 
