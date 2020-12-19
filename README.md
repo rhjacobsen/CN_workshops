@@ -49,7 +49,7 @@ According to the GNS3 web page, the following are the minimum requirements for a
 
 # Notes
 
-* To install the GNS3 VM server in GNS3, I had to run GNS3 as administrator.
+* ISSUE: To install the GNS3 VM server in GNS3, I had to run GNS3 as administrator. Even when I have the VM installed in my local directory.
 
 
 
