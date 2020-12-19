@@ -1,7 +1,7 @@
 # Workshops in Computer Networks course
 This repository contains materials for the workshops in the computer engineering bachelor course in Computer Networks at Aarhus University.
 
-The workshops are made for the GNS3 simulator. GNS3 is open source, free software that you can download from [http://gns3.com](http://gns3.com)
+The workshops are made for the GNS3 simulator. GNS3 is open source, free software that you can download from [http://gns3.com](http://gns3.com). You will also need to install a [GNS3 VM](https://gns3.com/software/download-vm) to run with an virtualization environment on your computer.
 
 To successfully run the GNS3 simulator, there are some [hardware requirements](#hw_reqs) to consider. GNS3 is supported on Windows, Linux and MacOS. It comes with a bundled of various prerequisite and optional software such as the Wireshark protocol analyzer. So far I have only tested the installation on Windows 10.
 
