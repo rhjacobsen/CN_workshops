@@ -46,6 +46,15 @@ According to the GNS3 web page, the following are the minimum requirements for a
 
 - [Install GNS3 VM on Windows 10](https://summarynetworks.com/info-tlc/installing-gns3-vm-on-hyper-v-virtualization-platform-in-windows-10/)
 
+
+# Notes
+
+* To install the GNS3 VM server in GNS3, I had to run GNS3 as administrator.
+
+
+
+
+
 # Older notes below this line
 
 ## Software installation
