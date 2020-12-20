@@ -1,5 +1,7 @@
 # Installation Guide
 
+[[Back to README.md](https://github.com/rhjacobsen/CN_workshops/blob/master/README.md)]
+
 To successfully run the GNS3 simulator, there are some [hardware requirements](#hw_reqs) to consider. GNS3 is supported on Windows, Linux and MacOS. It comes with a bundled of various prerequisite and optional software such as the Wireshark protocol analyzer. So far I have only tested the installation on Windows 10.
 
 There is a good amount of [documentation for GNS3](https://docs.gns3.com/). 
