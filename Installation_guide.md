@@ -2,13 +2,19 @@
 
 [ [Back to README.md](https://github.com/rhjacobsen/CN_workshops/blob/master/README.md) ]
 
-To successfully run the GNS3 simulator, there are some [hardware requirements](#hw_reqs) to consider. GNS3 is supported on Windows, Linux and MacOS. It comes with a bundled of various prerequisite and optional software such as the Wireshark protocol analyzer. So far I have only tested the installation on Windows 10.
+## About the setup
 
-There is a good amount of [documentation for GNS3](https://docs.gns3.com/). 
+The workshops are prepared for the GNS3 simulator. GNS3 is open source, free software that you can download from [http://gns3.com](http://gns3.com). You will also need to install a [GNS3 virtual machine](https://gns3.com/software/download-vm) to run a server with a virtualized network on your computer.
+
+GNS3 is supported on Windows, Linux and MacOS. It comes with a bundled of various prerequisite and optional software such as the Wireshark protocol analyzer. So far I have only tested the installation on Windows 10. Note that Hyper-V and Containers Windows features must be enabled in Windows 10.
+
+To successfully run the GNS3 simulator, there are some [hardware requirements](#hw_reqs) to consider. 
+
+The nodes of the network, called appliances in the GNS3 terminology, will be built and installed in the simulation. To build these network nodes (appliances) we will make use of [Docker support in GNS3](https://docs.gns3.com/docs/emulators/docker-support-in-gns3/#!).
+
+ 
 
 ## Installation of the environment 
-
-To run the workshops, we make use of [Docker support in GNS3](https://docs.gns3.com/docs/emulators/docker-support-in-gns3/#!). Note that Hyper-V and Containers Windows features must be enabled in Windows 10.
 
 When you create topologies in GNS3 using the software GUI client, the devices created need to be hosted and run by a server process. 
 You have a few options for the server part of the software:
@@ -43,5 +49,6 @@ According to the GNS3 web page, the following are the minimum requirements for a
 
 # Useful links
 
+- There is a good amount of [documentation for GNS3](https://docs.gns3.com/).
 - [Install GNS3 VM on Windows 10](https://summarynetworks.com/info-tlc/installing-gns3-vm-on-hyper-v-virtualization-platform-in-windows-10/)
 
