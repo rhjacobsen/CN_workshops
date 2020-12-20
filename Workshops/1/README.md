@@ -10,7 +10,7 @@ The overall goal of the workshop is to consolidate the material that has been co
 
 #### Setup
 
-![Project](/workshops/workshop 01/images/LAB01.png)
+![Project](/workshops/1/imgs/LAB01.png)
 
 #### Networks
 
