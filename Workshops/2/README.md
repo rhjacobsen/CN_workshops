@@ -12,7 +12,7 @@ We first consider the process of setting up a single IPv6-in-IPv4 tunnel. The IP
 
 #### Topology
 
-![LAB03_6IN4](/imgs/LAB03_6IN4.png)
+![LAB03_6IN4](imgs/LAB03_6IN4.png)
 
 #### Networks
 
@@ -144,7 +144,7 @@ TAYGA is an out-of-kernel stateless NAT64 implementation for Linux that uses the
 
 #### Setup
 
-![LAB03_NAT64](/imgs/LAB03_NAT64.png)
+![LAB03_NAT64](imgs/LAB03_NAT64.png)
 
 #### Network
 
