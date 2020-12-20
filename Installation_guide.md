@@ -4,7 +4,7 @@
 
 ## About the setup
 
-The workshops are prepared for the GNS3 simulator. GNS3 is open source, free software that you can download from [http://gns3.com](http://gns3.com). You will also need to install a [GNS3 virtual machine](https://gns3.com/software/download-vm) to run a server with a virtualized network on your computer.
+The workshops are prepared for the GNS3 simulator. GNS3 is open source, free software that you can download from [gns3.com](http://gns3.com). You will also need to install a [GNS3 virtual machine](https://gns3.com/software/download-vm) to run a server with a virtualized network on your computer.
 
 GNS3 is supported on Windows, Linux and MacOS. It comes with a bundled of various prerequisite and optional software such as the Wireshark protocol analyzer. So far I have only tested the installation on Windows 10. Note that Hyper-V and Containers Windows features must be enabled in Windows 10.
 
