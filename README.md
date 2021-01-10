@@ -3,10 +3,13 @@ This repository contains materials for the workshops in the computer engineering
 
 The workshops are made for the GNS3 simulator. GNS3 is open source, free software that you can download from [http://gns3.com](http://gns3.com). You will also need to install a [GNS3 VM](https://gns3.com/software/download-vm) to run a virtual simulation environment on your computer. There is a good amount of [documentation for GNS3](https://docs.gns3.com/). 
 
-
 ### List of workshops
 
-[List of Workshops](https://github.com/rhjacobsen/CN_workshops/blob/master/List_of_workshops.md)
+- Workshop 1
+- Workshop 2
+- Workshop 3
+- Workshop 4
+- Workshop 5
 
 ### Guide for installation of the environment in Windows
 
