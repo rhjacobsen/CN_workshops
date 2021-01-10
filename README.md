@@ -5,11 +5,11 @@ The workshops are made for the GNS3 simulator. GNS3 is open source, free softwar
 
 ### List of workshops
 
-- [Workshop 1]()
-- Workshop 2
-- Workshop 3
-- Workshop 4
-- Workshop 5
+- [Workshop 1](https://github.com/rhjacobsen/CN_workshops/tree/master/Workshops/1)
+- [Workshop 2](https://github.com/rhjacobsen/CN_workshops/tree/master/Workshops/2)
+- [Workshop 3](https://github.com/rhjacobsen/CN_workshops/tree/master/Workshops/3)
+- [Workshop 4](https://github.com/rhjacobsen/CN_workshops/tree/master/Workshops/4)
+- [Workshop 5](https://github.com/rhjacobsen/CN_workshops/tree/master/Workshops/5)
 
 ### Guide for installation of the environment in Windows
 
