@@ -5,6 +5,11 @@ The workshops are made for the GNS3 simulator. GNS3 is open source, free softwar
 
 To successfully run the GNS3 simulator, there are some [hardware requirements](#hw_reqs) to consider. GNS3 is supported on Windows, Linux and MacOS. It comes with a bundled of various prerequisite and optional software such as the Wireshark protocol analyzer. So far I have only tested the installation on Windows 10.
 
+## If you have allready installed and are running the environment you may continue to the list of workshops
+
+[List of Workshops][./List_of_worshops.md]
+
+
 ## Installation of the environment 
 
 When you create network topologies in GNS3 using the software GUI client, the devices created need to be hosted and run by a server process. 
