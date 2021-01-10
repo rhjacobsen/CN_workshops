@@ -3,15 +3,14 @@ This repository contains materials for the workshops in the computer engineering
 
 The workshops are made for the GNS3 simulator. GNS3 is open source, free software that you can download from [http://gns3.com](http://gns3.com). You will also need to install a [GNS3 VM](https://gns3.com/software/download-vm) to run a virtual simulation environment on your computer. There is a good amount of [documentation for GNS3](https://docs.gns3.com/). 
 
-To successfully run the GNS3 simulator, there are some [hardware requirements](#hw_reqs) to consider. GNS3 is supported on Windows, Linux and MacOS. It comes with a bundled of various prerequisite and optional software such as the Wireshark protocol analyzer. So far I have only tested the installation on Windows 10.
 
-## If you have allready installed and are running the environment you may continue to the list of workshops
+### List of workshops
 
 [List of Workshops](https://github.com/rhjacobsen/CN_workshops/blob/master/List_of_workshops.md)
 
-## Guide for installation of the environment in Windows
+### Guide for installation of the environment in Windows
 
-[Installation guide (Windows 10)](https://github.com/rhjacobsen/CN_workshops/blob/master/instation_guide.md)
+[Installation guide (Windows 10)](https://github.com/rhjacobsen/CN_workshops/blob/master/installation_guide.md)
 
 
 ## Delete stuff below
@@ -41,6 +40,8 @@ According to the GNS3 web page, the following are the minimum requirements for a
 4. Pull the docker images 'docker pull kalledk/itifn'
 2. Run GNS3
 3. Import CN appliances Node and Router from appliance directory. This will create a template for your network nodes.
+
+To successfully run the GNS3 simulator, there are some [hardware requirements](#hw_reqs) to consider. GNS3 is supported on Windows, Linux and MacOS. It comes with a bundled of various prerequisite and optional software such as the Wireshark protocol analyzer. So far I have only tested the installation on Windows 10.
 
 # Useful links
 
