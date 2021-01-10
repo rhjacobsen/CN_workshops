@@ -5,7 +5,7 @@ The workshops are made for the GNS3 simulator. GNS3 is open source, free softwar
 
 ### List of workshops
 
-- Workshop 1
+- [Workshop 1]()
 - Workshop 2
 - Workshop 3
 - Workshop 4
@@ -13,7 +13,7 @@ The workshops are made for the GNS3 simulator. GNS3 is open source, free softwar
 
 ### Guide for installation of the environment in Windows
 
-[Installation guide (Windows 10)](https://github.com/rhjacobsen/CN_workshops/blob/master/installation_guide.md)
+[Installation guide (Windows 10)](https://github.com/rhjacobsen/CN_workshops/blob/master/Installation_guide.md)
 
 
 ## Delete stuff below
