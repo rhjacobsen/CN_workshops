@@ -7,7 +7,14 @@ To successfully run the GNS3 simulator, there are some [hardware requirements](#
 
 ## If you have allready installed and are running the environment you may continue to the list of workshops
 
-[List of Workshops][./List_of_worshops.md]
+[List of Workshops](https://github.com/rhjacobsen/CN_workshops/blob/master/List_of_workshops.md)
+
+## Guide for installation of the environment in Windows
+
+[Installation guide (Windows 10)](https://github.com/rhjacobsen/CN_workshops/blob/master/instation_guide.md)
+
+
+## Delete stuff below
 
 
 ## Installation of the environment 
