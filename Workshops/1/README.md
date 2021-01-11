@@ -1,18 +1,16 @@
-# Workshop 1
-
-## Configuring IPv4 and IPv6
+# Workshop 1: Configuring IPv4 and IPv6
 
 This workshop consists of two parts. The first part is dealing with IPv4 static address configuration, address resolution (ARP), and autoconfiguration (DHCP). The second part is dealing with IPv6 autoconfiguration and address resolution which is part of the Neighbour Discovery Protocol (NDP).
 
 The overall goal of the workshop is to consolidate the material that has been covered in the lectures on IPv4 and IPv6 and get some experience working with basic IP concepts in practice.
 
-### Lab Overview
+## Lab overview
 
-#### Setup
+### Setup
 
 ![Project](imgs/LAB01.png)
 
-#### Networks
+### Networks
 
 | Name         | Network
 |--------------|--------------------------
@@ -21,15 +19,15 @@ The overall goal of the workshop is to consolidate the material that has been co
 
 ## Creating and Setting up the Laboratory
 The same GNS3 project is used for all experiments. The first step is to create the project.
- * Start GNS3
+ * Start GNS3 and create (or open an existing) project 1)
  * Add an Ethernet Switch, two Nodes, and a Router
  * Connect them as below
-
-
-
- * Save the project
+ * Save the project 2) 
  * Start all devices, wait until all links are green
  * Right click a link, and choose start capture, Wireshark should start
+ 
+ 1) Note: You man need to run GNS3 as administrator for the environment to have access to the virtual server.
+ 2) Note: Configurations that you type are not persistently stored. When you close the project the typed-in configurations may be lost.
 
 ## Part 1: IPv4 Configuration and Address Resolution
 The objective of these experiments is to configure the network with IPv4 addresses statically and automatically using the Dynamic Host Configuration Protocol (DHCP), and observe the behaviour of the ARP and ICMP protocols. DHCP can be used to configure more than just IP-addresses, but for simplicity this will not be covered in this workshop.
