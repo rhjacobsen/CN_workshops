@@ -8,8 +8,7 @@ The overall goal of the workshop is to consolidate the material that has been co
 
 ### Setup
 
-![Project](imgs/LAB01.png)
-Figure: Lab overview
+![Project](imgs/LAB01.png "Lab overview")
 
 ### Networks
 
