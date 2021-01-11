@@ -28,8 +28,8 @@ The same GNS3 project is used for all experiments. The first step is to create t
 
 #### Notes
 ```
-1) Note: You man need to run GNS3 as administrator for the environment to have access to the virtual server.
-2) Note: Configurations that you have typed are not persistently stored when you close a project.
+1) You man need to run GNS3 as administrator for the environment to have access to the virtual server.
+2) Configurations that you have typed are not persistently stored when you close a project.
 ```
 
 ## Part 1: IPv4 Configuration and Address Resolution
