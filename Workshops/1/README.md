@@ -99,7 +99,7 @@ The experiments consists of the following steps. When asked to fill in informati
 
 ### Step 4: Automatic IPv4 Address Configuration
 
-   Login to "Node-2", and run the command
+ * Login to "Node-2", and run the command
 
     ```
     # Start the DHCP client for autoconfiguration of eth0.
@@ -117,7 +117,8 @@ The experiments consists of the following steps. When asked to fill in informati
     >
     > ```
 
-Finally, try to ping both "Node-1" and "Router-1", in order to see if the network has been configured successfully. 
+  * Finally, try to ping both "Node-1" and "Router-1", in order to see if the network has been configured successfully. If all nodes can
+  ping each other you have successfully completed Part 1.
 
 ## Part 2: IPv6 Autoconfiguration and the Neighbour Discovery Protocol
 
