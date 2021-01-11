@@ -120,24 +120,24 @@ The experiments consists of the following steps. When asked to fill in informati
   * Finally, try to ping both "Node-1" and "Router-1", in order to see if the network has been configured successfully. If all nodes can
   ping each other you have successfully completed Part 1.
 
-## Part 2: IPv6 Autoconfiguration and the Neighbour Discovery Protocol
+## Part 2: IPv6 autoconfiguration 
 
-The objective of these experiments is to observe how stateless IPv6 Autoconfiguration and Neighbour Discovery Protocol (NDP) works.
-Start this part by opening the project that was created in the beginning of the workshop and connect WireShark to the hub.
-The experiments consists of the following steps. When asked to fill in information, do so before continuing to the next step.
+The objective of these experiments is to observe how stateless IPv6 autoconfiguration and Neighbour Discovery Protocol (NDP) works.
+Start this part by opening the project that was created in the beginning of the workshop and connect WireShark to the switch (or a hub).
+The experiments consists of the three steps below. When asked to fill in information, do so before continuing to the next step.
 
-### Step 1: Configure IPv6 Router
+### Step 1: Configure IPv6 router with autoconfiguration
 
 In order to see how IPv6 autoconfiguration works with a router present, we need to configure the Router Advertisement Daemon (radvd) on the router node:
 
  * Login to the "Router-1" node and assign an IPv6 address to eth0 of the router by issuing the following command:
 
     ```
-    ip address add 2001:16d8:dd92:1001::1/64 dev eth0
+    ip addr add 2001:16d8:dd92:1001::1/64 dev eth0
     ip link set eth0 up
     ```
 
- * Edit /etc/radvd.conf using the nano editor (or vim if you prefer), so that it contains the following:
+ * Edit /etc/radvd.conf using the _nano editor_ (or vim if you prefer), so that it contains the following:
 
     ```
     interface eth0 {
@@ -201,7 +201,7 @@ We now have a node on the network which acts as an IPv6 router. Next step is to 
  * Inspect the interface by typing:
 
     ```
-    ip addr eth0
+    ip addr show eth0
     ```
 
     > ##### Challenge 1.4
@@ -213,7 +213,7 @@ We now have a node on the network which acts as an IPv6 router. Next step is to 
     > ```
 
     > ##### Challenge 1.5
-    > What is the IPv6-network address used, and how can you tell?
+    > What is the IPv6-network address (prefix) announced by the Router? Explain how you can identify this address?
     > ```
     >
     >
@@ -252,7 +252,7 @@ We now have a node on the network which acts as an IPv6 router. Next step is to 
     >
     > ```
 
-### Step 3: IPv6 Address Calculation
+### Step 3: IPv6 address calculation
 
 Having configured one of the hosts using IPv6 autoconfiguration, the final step is to predict the IPv6 address that will be assigned to the other node. Recall that the EUI-64 identifier is calculated from the MAC-address by taking the lower 24-bits and the upper 24-bits and inserting FF:FE between them and inverting the UL-bit. The EUI-64 identifier is then used together with the network prefix to construct the global unicast address.
 
