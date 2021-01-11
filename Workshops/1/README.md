@@ -26,9 +26,8 @@ The same GNS3 project is used for all experiments. The first step is to create t
  * Start all devices, wait until all links are green
  * Right click a link, and choose start capture, Wireshark should start
 
+#### Notes
 ```
-
-### Notes
 1) Note: You man need to run GNS3 as administrator for the environment to have access to the virtual server.
 2) Note: Configurations that you have typed are not persistently stored when you close a project.
 ```
