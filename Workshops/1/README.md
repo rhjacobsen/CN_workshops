@@ -19,15 +19,16 @@ The overall goal of the workshop is to consolidate the material that has been co
 
 ## Creating and Setting up the Laboratory
 The same GNS3 project is used for all experiments. The first step is to create the project.
- * Start GNS3 and create (or open an existing) project 1)
+ * Start GNS3 and create (or open an existing) project <sub>1</sub>
  * Add an Ethernet Switch, two Nodes, and a Router
  * Connect them as below
- * Save the project 2) 
+ * Save the project <sub>2</sub> 
  * Start all devices, wait until all links are green
  * Right click a link, and choose start capture, Wireshark should start
  
- 1) Note: You man need to run GNS3 as administrator for the environment to have access to the virtual server.
- 2) Note: Configurations that you type are not persistently stored. When you close the project the typed-in configurations may be lost.
+*** Notes
+1) Note: You man need to run GNS3 as administrator for the environment to have access to the virtual server.
+2) Note: Configurations that you type are not persistently stored. When you close the project the typed-in configurations may be lost.
 
 ## Part 1: IPv4 Configuration and Address Resolution
 The objective of these experiments is to configure the network with IPv4 addresses statically and automatically using the Dynamic Host Configuration Protocol (DHCP), and observe the behaviour of the ARP and ICMP protocols. DHCP can be used to configure more than just IP-addresses, but for simplicity this will not be covered in this workshop.
