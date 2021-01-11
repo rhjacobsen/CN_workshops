@@ -9,7 +9,7 @@ The overall goal of the workshop is to consolidate the material that has been co
 ### Setup
 
 ![Project](imgs/LAB01.png)
-'''
+
 ### Networks
 
 | Name         | Network
@@ -27,9 +27,10 @@ The same GNS3 project is used for all experiments. The first step is to create t
  * Right click a link, and choose start capture, Wireshark should start
 
 ```
+
 ### Notes
 1) Note: You man need to run GNS3 as administrator for the environment to have access to the virtual server.
-2) Note: Configurations that you type are not persistently stored. When you close the project the typed-in configurations may be lost.
+2) Note: Configurations that you have typed are not persistently stored when you close a project.
 ```
 
 ## Part 1: IPv4 Configuration and Address Resolution
