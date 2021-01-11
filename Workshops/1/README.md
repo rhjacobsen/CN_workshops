@@ -26,7 +26,7 @@ The same GNS3 project is used for all experiments. The first step is to create t
  * Start all devices, wait until all links are green
  * Right click a link, and choose _start capture_, Wireshark protocol analyzer should start
 
-#### Notes
+#### Notes:
 ```
 1) You man need to run GNS3 as administrator for the environment to have access to the virtual server.
 2) Configurations that you have typed are not persistently stored when you close a project.
@@ -99,7 +99,7 @@ The experiments consists of the following steps. When asked to fill in informati
 
 ### Step 4: Automatic IPv4 Address Configuration
 
- * Login to "Node-2", and run the command
+Login to "Node-2", and run the command
 
     ```
     # Start the DHCP client for autoconfiguration of eth0.
@@ -107,7 +107,7 @@ The experiments consists of the following steps. When asked to fill in informati
     ```
 
     > ##### Challenge 1.2
-    > Identify the DHCP packets, and briefly explain the exchange of DHCP packets. What IPv4 address has been assigned to "Node-2"?
+    > Identify the DHCP packets by using packet capture, and briefly explain the exchange of DHCP packets. What IPv4 address has been assigned to "Node-2"?
     > ```
     >
     >
@@ -117,7 +117,7 @@ The experiments consists of the following steps. When asked to fill in informati
     >
     > ```
 
- * Finally, try to ping both "Node-1" and "Router-1", in order to see if the network has been configured successfully
+Finally, try to ping both "Node-1" and "Router-1", in order to see if the network has been configured successfully. If 
 
 ## Part 2: IPv6 Autoconfiguration and the Neighbour Discovery Protocol
 
