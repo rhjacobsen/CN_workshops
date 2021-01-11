@@ -99,7 +99,7 @@ The experiments consists of the following steps. When asked to fill in informati
 
 ### Step 4: Automatic IPv4 Address Configuration
 
- * Login to "Node-2", and run the command
+   Login to "Node-2", and run the command
 
     ```
     # Start the DHCP client for autoconfiguration of eth0.
