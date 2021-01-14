@@ -1,17 +1,17 @@
-# Workshops in the Computer Networks course
+#  Computer Networks Course Workshops
 This repository contains materials for the workshops in the computer engineering bachelor course in Computer Networks at Aarhus University.
 
-The workshops are made for the GNS3 simulator. GNS3 is open source, free software that you can download from [http://gns3.com](http://gns3.com). You will also need to install a [GNS3 VM](https://gns3.com/software/download-vm) to run a virtual simulation environment on your computer. There is a good amount of [documentation for GNS3](https://docs.gns3.com/). 
+The workshops are made for the GNS3 simulator. GNS3 is open source, free software that you can download from [http://gns3.com](http://gns3.com). It allows the creation of virtual networks of hosts, switches and routers among other network appliances. There is a good amount of [documentation for GNS3](https://docs.gns3.com/). 
 
 ### List of workshops
 
-- [Workshop 1](https://github.com/rhjacobsen/CN_workshops/tree/master/Workshops/1)
-- [Workshop 2](https://github.com/rhjacobsen/CN_workshops/tree/master/Workshops/2)
-- [Workshop 3](https://github.com/rhjacobsen/CN_workshops/tree/master/Workshops/3)
-- [Workshop 4](https://github.com/rhjacobsen/CN_workshops/tree/master/Workshops/4)
-- [Workshop 5](https://github.com/rhjacobsen/CN_workshops/tree/master/Workshops/5)
+- [Workshop 1](https://github.com/rhjacobsen/CN_workshops/tree/master/Workshops/1): Configuring IPv4 and IPv6
+- [Workshop 2](https://github.com/rhjacobsen/CN_workshops/tree/master/Workshops/2): IPv6 transition mechanism
+- [Workshop 3](https://github.com/rhjacobsen/CN_workshops/tree/master/Workshops/3): Network programming
+- [Workshop 4](https://github.com/rhjacobsen/CN_workshops/tree/master/Workshops/4): Routing part 1
+- [Workshop 5](https://github.com/rhjacobsen/CN_workshops/tree/master/Workshops/5): Routing part 2
 
-### Guide for installation of the environment in Windows
+### Guide for installation of the environment
 
 [Installation guide (Windows 10)](https://github.com/rhjacobsen/CN_workshops/blob/master/Installation_guide.md)
 
@@ -24,16 +24,6 @@ The workshops are made for the GNS3 simulator. GNS3 is open source, free softwar
 When you create network topologies in GNS3 using the software GUI client, the devices created need to be hosted and run by a server process. 
 
 When you have installed the GNS3, I recommend that you proceed to create [your first GNS3 topology](https://docs.gns3.com/docs/getting-started/your-first-gns3-topology/#!) following the guidelines to get to know the GNS3 GUI and to see if the GNS3 is installed correctly.
-
-<a name="hw_reqs"></a>
-## Minimum hardware requirements
-
-According to the GNS3 web page, the following are the minimum requirements for a Windows GNS3 environment:
-- Processor: 2 or more Logical cores
-- Virtualization: Virtualization extensions required. You may need to enable this via your computer's BIOS.
-- Memory: 4 GB RAM
-- Storage: 1GB available space.
-- Additional Notes: You may need additional storage for your operating system and device images.
 
 ## Software installation steps (for Windows)
 
