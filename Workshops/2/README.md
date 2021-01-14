@@ -100,26 +100,26 @@ On "Router 2" add a route to the 2001:878:402:1/64 network:
 
     ip -6 route add 2001:878:402:1::/64 via 2001:878:402:3::1
 
-Ensure that you can ping 2001:878:402:1::1 from both "Router 2" and "Node 2".
+Ensure that you can ping 2001:878:402:1::1 from both "Router-2" and "Node-2".
 
-Use the command ```ip -6 route``` to inspect the routing tables on "Router 1" and "Router 2", and observe how the tunnel endpoints are being used as interfaces.
+Use the command ```ip -6 route``` to inspect the routing tables on "Router-1" and "Router-2", and observe how the tunnel endpoints are being used as interfaces.
 
-Lastly add the default route on Node 1
+Lastly, add the default route on Node-1
 
     ip -6 route replace default via 2001:878:402:1::1
 
- And Node 2
+and Node-2
 
      ip -6 route replace default via 2001:878:402:2::1
 
-Start Wireshark, and capture packets from IPv4 Net. Ping "Node 2" from "Node 1".
+Start Wireshark, and capture packets from the IPv4 Network: Interconnect. Ping "Node-2" from "Node-1".
 
 After a couple of ping requests have been answered, stop the ping and Wireshark capture.
 
 Inspect the ping packets captured.
 
 > ##### Challenge 3.3
-> Briefly explain the structure of the ping packets captured.
+> Explore and briefly explain the structure of the ping packets captured using Wireshark.
 > ```
 >
 >
@@ -136,7 +136,7 @@ Stop the laboratory.
 
 ## Part 2: Protocol translation
 
-In this part we will use protocol translation mechanisms to provide interworking between IPv6 and IPv4. We will use a mechanism calles stateless NAT64 (actually it is SIIT). On Linux this is provided by the Tayga software package.
+In this part, we will use protocol translation mechanisms to provide interworking between IPv6 and IPv4. We will use a mechanism calles stateless NAT64 (actually it is SIIT). On Linux this is provided by the Tayga software package.
 
 TAYGA is an out-of-kernel stateless NAT64 implementation for Linux that uses the TUN driver to exchange IPv4 and IPv6 packets with the kernel. It is intended to provide production-quality NAT64 service for networks where dedicated NAT64 hardware would be overkill.
 
@@ -159,16 +159,16 @@ TAYGA is an out-of-kernel stateless NAT64 implementation for Linux that uses the
 
 Configure the interfaces given in the table below:
 
-| Network Node  |	eth0 (IP / CIDR)     | eth1 (IP / CIDR) |
+| Network Node  | eth0                 | eth1             |
 |---------------|----------------------|------------------|
 | Node 1        | 2001:db8:1:1::2 / 64 | N/A              |
 | Node 2        | 192.168.1.2 / 24     | N/A              |
 | NAT64 gateway	| 2001:db8:1:1::1 / 64 | 192.168.1.1 / 24 |
 
 
-### Tayga
+### NAT64 with Tayga
 
-Before starting the TAYGA daemon, the routing setup on your NAT64 gateway will need to be changed to send IPv4 and IPv6 packets to TAYGA.
+Before starting the TAYGA daemon, the routing setup on your NAT64 gateway will need to be changed to allow sending IPv4 and IPv6 packets to TAYGA.
 
 Make a configuration file ```/usr/local/etc/tayga.conf``` with the following content:
 
@@ -202,16 +202,16 @@ Finally, start the NAT64 gateway application by using the command
 
     tayga -d &
 
-Inspect the new interface by using ifconfig nat64. On the NAT64 gateway try to ping6 2001:db8:1:ffff::192.168.0.1. If it succeeds Tayga is running properly.
+Inspect the new interface by using ifconfig nat64. On the NAT64 gateway try to ping6 2001:db8:1:ffff::192.168.0.1. If it succeeds, Tayga is running properly.
 
-Add default gateway routes to Node 1 and Node 2, respectively:
+Add default gateway routes to Node-1 and Node-2, respectively:
 
     ip -6 route replace default via 2001:db8:1:1::1      (Node 1)
     ip route replace default via 192.168.1.1             (Node 2)
 
 
 > ##### Challenge 3.4
-> Try to ping Node 2 from Node 1. What address should you ping and what is the results?
+> Try to ping Node-2 from Node-1. What address should you ping and what is the results?
 > ```
 >
 >
@@ -244,7 +244,7 @@ The program tcpdump can be used as an alternative to Wireshark for capturing pac
 
 
 > ##### Challenge 3.6
-> Use Wireshark to capture packets sent over the nat64 interface. Explain the content of the packet capture and clarify the main differences from a similar setup using 1) pure IPv4 networking and 2) pure IPv6 networking.
+> Capture packets sent over the nat64 interface. Explain the content of the packet capture and clarify the main differences from a similar setup using 1) pure IPv4 networking and 2) pure IPv6 networking.
 > ```
 >
 >
