@@ -27,7 +27,7 @@ The nodes of the network, called appliances in the GNS3 terminology, will be bui
 2. Run GNS3
 3. Import CN appliances Node + Router from appliance directory. This will create a template
 
-# Useful links
+## Useful links
 
 - [Documentation for GNS3](https://docs.gns3.com/).
 - Alternative guide: [Install GNS3 VM on Windows 10](https://summarynetworks.com/info-tlc/installing-gns3-vm-on-hyper-v-virtualization-platform-in-windows-10/)
