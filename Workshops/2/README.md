@@ -1,16 +1,16 @@
-# Workshop 3
+# Workshop 2
 
 ## IPv6 transition mechanisms
 
-The goal of this workshop is to get hands-on experience with IPv4-IPv6 transition mechanisms. It consists of two parts. The first part deals with simple IPv6-in-IPv4 tunnelling, while the second part explores the protocol translation mechanism.
+The goal of this workshop is to get hands-on experience with IPv4-IPv6 transition mechanisms. The workshop consists of two parts. The first part deals with simple IPv6-in-IPv4 tunnelling, while the second part explores a protocol translation mechanism.
 
-## Part 1: Simple Tunnel Setup
+## Part 1: Simple tunnel setup
 
-We first consider the process of setting up a single IPv6-in-IPv4 tunnel. The IPv6-in-IPv4 tunnel allows connections to IPv6 networks through IPv4 networks. This is what is used when connecting to IPv6 networks through the Internet.
+We first consider the process of setting up a single IPv6-in-IPv4 tunnel. The IPv6-in-IPv4 tunnel allows connections to IPv6 networks through IPv4 networks. This is what is typically used today when connecting to IPv6 networks through the Internet.
 
-### Lab Overview
+### Lab overview
 
-#### Topology
+#### Network topology
 
 ![LAB03_6IN4](imgs/LAB03_6IN4.png)
 
@@ -30,23 +30,23 @@ The laboratory shall be configured with the following IP addresses:
 
 | Network  Node	| eth0                   | eth1
 |---------------|------------------------|------------------
-| Node 1	      | 2001:878:402:1:XX / 64 | N/A
-| Node 2	      | 2001:878:402:2:XX / 64 | N/A
-| Router 1      | 2001:878:402:1::1 / 64 | 10.0.0.1 / 24
-| Router 2      | 2001:878:402:2::1 / 64 | 10.0.0.2 / 24
+| Node-1	      | 2001:878:402:1:XX / 64 | N/A
+| Node-2	      | 2001:878:402:2:XX / 64 | N/A
+| Router-1      | 2001:878:402:1::1 / 64 | 10.0.0.1 / 24
+| Router-2      | 2001:878:402:2::1 / 64 | 10.0.0.2 / 24
 
-An XX in an IPv6 address means that the interface is configured using stateless autoconfiguration and will configure an address with the prefix given to the router on the corresponding network.
+An XX in an IPv6 address means that the interface is configured using stateless autoconfiguration and will configure an address with the prefix given to the router on the corresponding network. You may what to consult Workshop 1 to recap how this is done.
 
 Try to ping following:
 
-* Router 1 (eth0) <-> Node 1 (eth0)
-* Router 1 (eth1) <-> Router 2 (eth1)
-* Router 2 (eth0) <-> Node 2 (eth0)
+* Router-1 (eth0) <-> Node-1 (eth0)
+* Router-1 (eth1) <-> Router-2 (eth1)
+* Router-2 (eth0) <-> Node-2 (eth0)
 
-This should work without any problems.
+This should work without any problems when the interfaces have been configured correctly.
 
 > ##### Challenge 3.1
-> Try to ping eth1 of "Router 1" from "Node 1", why is this not possible?
+> Try to ping eth1 of "Router-1" from "Node-1", why is this not possible?
 > ```
 >
 >
@@ -58,9 +58,9 @@ This should work without any problems.
 
 ### Tunneling
 
-Now, we setup a 6-in-4 tunnel between "Router 1" and "Router 2", such that "Node 1" and "Node 2" can communicate using IPv6.
+Now, we setup a 6-in-4 tunnel between "Router-1" and "Router-2", such that "Node-1" and "Node-2" can communicate using IPv6.
 
-Login to "Router 1" and execute the following commmand:
+Login to "Router-1" and execute the following commmand:
 
     iptunnel add tun0 mode sit ttl 64 remote 10.0.0.2 local 10.0.0.1
 
