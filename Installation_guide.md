@@ -32,6 +32,7 @@ after following the guided steps below.
 4. Install the GNS3. Open the Windows PowerShell running it as an administrator. Navigate to the folder where you unpacked the virtual machine and run the script '''create-vm.ps1'''. You should get an output like [this](https://github.com/rhjacobsen/CN_workshops/blob/master/Docs/Figs/gns3-vm-capture.png) and you GNS3 VM should be visible in the [Hyper-V Manager](https://github.com/rhjacobsen/CN_workshops/blob/master/Docs/Figs/hypervman-capture.png). Note that you might need to enable ExecutionPolicy on you machine to allow for [this](https://github.com/rhjacobsen/CN_workshops/blob/master/Docs/Figs/executionpolicy-capture.png).
 5. Run GNS3. You may need to run GNS3 as administrator to get access to the GNS3 VM. Selected 'cancel' if you are asked to create a new project.
 6. Go to Edit->Preferences and setup the [server](https://github.com/rhjacobsen/CN_workshops/blob/master/Docs/Figs/gns3-pref1-capture.png) to run GNS3 locally and the [virtual server](https://github.com/rhjacobsen/CN_workshops/blob/master/Docs/Figs/gns3-pref2-capture.png) to host the virtualization environment.
+7. Clone the git repository for the CN workshops (or simply download files and unpack). Command: ''git clone''
 
 ----
 
@@ -44,6 +45,7 @@ after following the guided steps below.
 ## Useful links
 
 - [Documentation for GNS3](https://docs.gns3.com/).
+- [Git software download](https://git-scm.com/downloads).
 - Alternative guide: [Install GNS3 VM on Windows 10](https://summarynetworks.com/info-tlc/installing-gns3-vm-on-hyper-v-virtualization-platform-in-windows-10/)
 - [Youtube video showing how to install GNS3 VM with Hyper-V](https://www.youtube.com/watch?v=YME5I_Er-0U)
 - [Enabling Hyper-V in Windows Home edition](https://www.itechtics.com/enable-hyper-v-windows-10-home/#:~:text=%20Enable%20Hyper-V%20in%20Windows%2010%20Home%20,see%20the%20Windows%20updates%20screen%20upon...%20More%20)
