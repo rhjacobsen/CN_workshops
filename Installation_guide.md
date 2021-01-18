@@ -20,9 +20,11 @@ The nodes of the network, called appliances in the GNS3 terminology, will be bui
 
 ## Software installation steps
 
-'''
+---
+
 DISLAIMER: Some of the steps below might down-grade the default security settings on your system. We shall not be kept liable for any damages arising from the use of or inability to use your system after following the guided steps below.
-'''
+
+---
 
 1. Install GNS3 from the official [download page](https://gns3.com/software/download). You will need to register with the GNS3 community. Allow the program to also select to download the GNS3-VM. 
 2. Enable Hyper-V in your system. This is done by turning on the [Hyper-V features](https://github.com/rhjacobsen/CN_workshops/blob/master/Docs/Figs/hyperv-capture.png) in Windwows. Note that Hyper-V comes with Windows 10 Professional and Windows 10 Enterprise editions. For Windows 10 Home edition you need to run a [Hyper-V installer program](https://www.itechtics.com/enable-hyper-v-windows-10-home/#:~:text=%20Enable%20Hyper-V%20in%20Windows%2010%20Home%20,see%20the%20Windows%20updates%20screen%20upon...%20More%20).  
