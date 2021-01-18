@@ -22,7 +22,9 @@ The nodes of the network, called appliances in the GNS3 terminology, will be bui
 
 ```
 
-**DISLAIMER:** Some of the steps below might down-grade the default security settings on your system. We shall not be kept liable for any damages arising from the use of or inability to use your system after following the guided steps below.
+DISLAIMER: Some of the steps below might down-grade the default security settings on your system. 
+We shall not be kept liable for any damages arising from the use of or inability to use your system 
+after following the guided steps below.
 
 ```
 
