@@ -22,7 +22,8 @@ The nodes of the network, called appliances in the GNS3 terminology, will be bui
 
 1. Install GNS3 from the official [download page](https://gns3.com/software/download). You will need to register with the GNS3 community. Allow the program to also select to download the GNS3-VM. 
 2. Enable Hyper-V in your system. This is done by turning on the [Hyper-V features](https://github.com/rhjacobsen/CN_workshops/blob/master/Docs/Figs/hyperv-capture.png) in Windwows. Note that Hyper-V comes with Windows 10 Professional and Windows 10 Enterprise editions. For Windows 10 Home edition you need to run a [Hyper-V installer program](https://www.itechtics.com/enable-hyper-v-windows-10-home/#:~:text=%20Enable%20Hyper-V%20in%20Windows%2010%20Home%20,see%20the%20Windows%20updates%20screen%20upon...%20More%20).  
-3. Unpak the GNS3 VM in a folder where you want to install your virtual GNS3 server. If you did not download the GNS3 VM in step 1 you can find it [here](https://gns3.com/software/download-vm). 
+3. Unpak the GNS3 VM in a folder from where you can install it. If you did not download the GNS3 VM in step 1 you can find it [here](https://gns3.com/software/download-vm). 
+4. Install the GNS3. Open the Windows PowerShell running it as an administrator. Navigate to the folder where you unpacked the virtual machine and run the script '''create-vm.ps1'''. You should get an output like [this](https://github.com/rhjacobsen/CN_workshops/blob/master/Docs/Figs/gns3-vm-capture.png). Note that you might need to enable ExecutionPolicy on you machine to allow for [this](https://github.com/rhjacobsen/CN_workshops/blob/master/Docs/Figs/executionpolicy-capture.png).
 
 ----
 
@@ -38,6 +39,7 @@ The nodes of the network, called appliances in the GNS3 terminology, will be bui
 - Alternative guide: [Install GNS3 VM on Windows 10](https://summarynetworks.com/info-tlc/installing-gns3-vm-on-hyper-v-virtualization-platform-in-windows-10/)
 - [Youtube video showing how to install GNS3 VM with Hyper-V](https://www.youtube.com/watch?v=YME5I_Er-0U)
 - [Enabling Hyper-V in Windows Home edition](https://www.itechtics.com/enable-hyper-v-windows-10-home/#:~:text=%20Enable%20Hyper-V%20in%20Windows%2010%20Home%20,see%20the%20Windows%20updates%20screen%20upon...%20More%20)
+- [How to Enable PowerShell Scripts in Windows 10 via PowerShell Execution Policy](https://winbuzzer.com/2020/07/10/how-to-enable-powershell-scripts-in-windows-10-via-powershell-execution-policy-xcxwbt/)
 
 
 
