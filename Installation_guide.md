@@ -20,8 +20,11 @@ The nodes of the network, called appliances in the GNS3 terminology, will be bui
 
 ## Software installation steps
 
-1. **Install GNS3 from the official [download page](https://gns3.com/software/download)**. You will need to register with the GNS3 community.
-2. **Enable Hyper-V in your system**. This is done by turning on the [Hyper-V features](https://github.com/rhjacobsen/CN_workshops/blob/master/Docs/Figs/hyperv-capture.png) in Windwows. Note that Hyper-V comes with Windows 10 Professional and Windows 10 Enterprise editions. For Windows 10 Home edition you need to run a [Hyper-V installer program](https://www.itechtics.com/enable-hyper-v-windows-10-home/#:~:text=%20Enable%20Hyper-V%20in%20Windows%2010%20Home%20,see%20the%20Windows%20updates%20screen%20upon...%20More%20).  
+1. Install GNS3 from the official [download page](https://gns3.com/software/download). You will need to register with the GNS3 community. Allow the program to also select to download the GNS3-VM. 
+2. Enable Hyper-V in your system. This is done by turning on the [Hyper-V features](https://github.com/rhjacobsen/CN_workshops/blob/master/Docs/Figs/hyperv-capture.png) in Windwows. Note that Hyper-V comes with Windows 10 Professional and Windows 10 Enterprise editions. For Windows 10 Home edition you need to run a [Hyper-V installer program](https://www.itechtics.com/enable-hyper-v-windows-10-home/#:~:text=%20Enable%20Hyper-V%20in%20Windows%2010%20Home%20,see%20the%20Windows%20updates%20screen%20upon...%20More%20).  
+3. Unpak the GNS3 VM in a folder where you want to install your virtual GNS3 server. If you did not download the GNS3 VM in step 1 you can find it [here](https://gns3.com/software/download-vm). 
+
+----
 
 2. Install Docker and configure [GNS3 for Docker](https://github.com/KalleDK/docker-itifn/tree/master/workshops). ([Install Docker for Windows 10](https://docs.docker.com/docker-for-windows/install/))
 3. Clone the repository
