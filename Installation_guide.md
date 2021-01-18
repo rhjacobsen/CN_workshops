@@ -36,6 +36,7 @@ The nodes of the network, called appliances in the GNS3 terminology, will be bui
 
 - [Documentation for GNS3](https://docs.gns3.com/).
 - Alternative guide: [Install GNS3 VM on Windows 10](https://summarynetworks.com/info-tlc/installing-gns3-vm-on-hyper-v-virtualization-platform-in-windows-10/)
+- [Youtube video showing how to install GNS3 VM with Hyper-V](https://www.youtube.com/watch?v=YME5I_Er-0U)
 - [Enabling Hyper-V in Windows Home edition](https://www.itechtics.com/enable-hyper-v-windows-10-home/#:~:text=%20Enable%20Hyper-V%20in%20Windows%2010%20Home%20,see%20the%20Windows%20updates%20screen%20upon...%20More%20)
 
 
