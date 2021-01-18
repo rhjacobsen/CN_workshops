@@ -21,7 +21,7 @@ The nodes of the network, called appliances in the GNS3 terminology, will be bui
 ## Software installation steps
 
 1. **Install GNS3 from the official [download page](https://gns3.com/software/download)**. You will need to register with the GNS3 community.
-2. **Enable Hyper-V in your system**. Note that Hyper-V comes with Windows 10 Professional and Windows 10 Enterprise editions. For Windows 10 Home edition
+2. **Enable Hyper-V in your system**. This is done by turning on the ![Hyper-V features](https://github.com/rhjacobsen/CN_workshops/blob/master/Docs/Figs/hyperv-capture.png) in Windwows. Note that Hyper-V comes with Windows 10 Professional and Windows 10 Enterprise editions. For Windows 10 Home edition.
 
 2. Install Docker and configure [GNS3 for Docker](https://github.com/KalleDK/docker-itifn/tree/master/workshops). ([Install Docker for Windows 10](https://docs.docker.com/docker-for-windows/install/))
 3. Clone the repository
