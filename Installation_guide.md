@@ -31,7 +31,7 @@ after following the guided steps below.
 3. Unpak the GNS3 VM in a folder from where you can install it. If you did not download the GNS3 VM in Step 1 you can find it [here](https://gns3.com/software/download-vm). 
 4. Install the GNS3. Open the Windows PowerShell running it as an administrator. Navigate to the folder where you unpacked the virtual machine and run the script '''create-vm.ps1'''. You should get an output like [this](https://github.com/rhjacobsen/CN_workshops/blob/master/Docs/Figs/gns3-vm-capture.png) and you GNS3 VM should be visible in the [Hyper-V Manager](https://github.com/rhjacobsen/CN_workshops/blob/master/Docs/Figs/hypervman-capture.png). Note that you might need to enable ExecutionPolicy on you machine to allow for [this](https://github.com/rhjacobsen/CN_workshops/blob/master/Docs/Figs/executionpolicy-capture.png).
 5. Run GNS3. You may need to run GNS3 as administrator to get access to the GNS3 VM. Selected 'cancel' if you are asked to create a new project.
-6. Go to Edit-> Preferences and setup the [server]() to run GNS3 locally and the [virtual server]() to host the virtualization environment.
+6. Go to Edit->Preferences and setup the [server](https://github.com/rhjacobsen/CN_workshops/blob/master/Docs/Figs/gns3-pref1-capture.png) to run GNS3 locally and the [virtual server](https://github.com/rhjacobsen/CN_workshops/blob/master/Docs/Figs/gns3-pref2-capture.png) to host the virtualization environment.
 
 ----
 
