@@ -21,11 +21,9 @@ The nodes of the network, called appliances in the GNS3 terminology, will be bui
 ## Software installation steps
 
 ```
-
 DISLAIMER: Some of the steps below might down-grade the default security settings on your system. 
 We shall not be kept liable for any damages arising from the use of or inability to use your system 
 after following the guided steps below.
-
 ```
 
 1. Install GNS3 from the official [download page](https://gns3.com/software/download). You will need to register with the GNS3 community. Allow the program to also select to download the GNS3-VM. 
