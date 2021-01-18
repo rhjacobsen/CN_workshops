@@ -38,6 +38,8 @@ To successfully run the GNS3 simulator, there are some [hardware requirements](#
 
 # Useful links
 
+- [How to install ...](https://www.sysnettechsolutions.com/en/install-gns3/)
+- [Install ...](https://www.sysnettechsolutions.com/en/install-gns3-vm/)
 - [Install GNS3 VM on Windows 10](https://summarynetworks.com/info-tlc/installing-gns3-vm-on-hyper-v-virtualization-platform-in-windows-10/)
 
 
