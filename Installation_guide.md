@@ -34,6 +34,7 @@ after following the guided steps below.
 6. Go to Edit->Preferences and setup the [server](https://github.com/rhjacobsen/CN_workshops/blob/master/Docs/Figs/gns3-pref1-capture.png) to run GNS3 locally and the [virtual server](https://github.com/rhjacobsen/CN_workshops/blob/master/Docs/Figs/gns3-pref2-capture.png) to host the virtualization environment.
 7. Clone the git repository for the CN workshops (or simply download files and unpack). Command: `git clone https://github.com/rhjacobsen/CN_workshops.git`.
 8. In GNS3, go to File->Import appliance and select the Node, Router and QRouter from the repository: `./CN_Workshops/Appliances` abd accept to install the appliance on the GNS3 VM. You should now be able to see the three new appliances (red circle) under Browse all devices as well as both servers running showing green light (blue circle) in the [GNS3 GUI](https://github.com/rhjacobsen/CN_workshops/blob/master/Docs/Figs/gns3-install-annotated-capture.png). 
+9. You are now ready to creat you first CN project in GNS3. The CN workshop nodes are installed as Docker container templates and will build first time you use the in GNS3. You may out these [container templates in GNS3](https://github.com/rhjacobsen/CN_workshops/blob/master/Docs/Figs/gns3-docker-templates.png).
 
 ----
 
