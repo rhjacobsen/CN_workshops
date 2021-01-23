@@ -13,7 +13,7 @@ The workshops are made for the GNS3 simulator. GNS3 is open source, free softwar
 
 ### Guide for installation of the environment
 
-[Installation guide (Windows 10)](https://github.com/rhjacobsen/CN_workshops/blob/master/Installation_guide.md)
+[Installation guide (Windows 10)](https://github.com/rhjacobsen/CN_workshops/blob/master/Workshops/Installation_guide.md)
 
 
 ## Delete stuff below
