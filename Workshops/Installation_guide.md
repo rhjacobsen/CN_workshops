@@ -36,13 +36,7 @@ after following the guided steps below.
 8. In GNS3, go to File->Import appliance and select the Node, Router and QRouter from the repository: `./CN_Workshops/Appliances` abd accept to install the appliance on the GNS3 VM. You should now be able to see the three new appliances (red circle) under Browse all devices as well as both servers running showing green light (blue circle) in the [GNS3 GUI](https://github.com/rhjacobsen/CN_workshops/blob/master/Docs/Figs/gns3-install-annotated-capture.png). 
 9. You are now ready to creat you first CN project in GNS3. The CN workshop nodes are installed as Docker container templates and will build first time you use the in GNS3. You may out these [container templates in GNS3](https://github.com/rhjacobsen/CN_workshops/blob/master/Docs/Figs/gns3-docker-templates.png).
 
-----
 
-2. Install Docker and configure [GNS3 for Docker](https://github.com/KalleDK/docker-itifn/tree/master/workshops). ([Install Docker for Windows 10](https://docs.docker.com/docker-for-windows/install/))
-3. Clone the repository
-4. Pull the docker images 'docker pull kalledk/itifn'
-2. Run GNS3
-3. Import CN appliances Node + Router from appliance directory. This will create a template
 
 ## Useful links
 
@@ -53,21 +47,6 @@ after following the guided steps below.
 - [Enabling Hyper-V in Windows Home edition](https://www.itechtics.com/enable-hyper-v-windows-10-home/#:~:text=%20Enable%20Hyper-V%20in%20Windows%2010%20Home%20,see%20the%20Windows%20updates%20screen%20upon...%20More%20)
 - [How to Enable PowerShell Scripts in Windows 10 via PowerShell Execution Policy](https://winbuzzer.com/2020/07/10/how-to-enable-powershell-scripts-in-windows-10-via-powershell-execution-policy-xcxwbt/)
 
-
-
-## Notes 
-
-When you create topologies in GNS3 using the software GUI client, the devices created need to be hosted and run by a server process. 
-You have a few options for the server part of the software:
-
-1. Local GNS3 server (see [Setup Wizard](https://docs.gns3.com/docs/getting-started/setup-wizard-local-server))
-2. Local GNS3 VM
-3. Remote GNS3 VM
-
-(**Note:** It is recommended to install a GNS3 virtual machine (VM) in addtion to the desktop installation for better scalability and robustness. The GNS3 server also contains a vast number of preinstalled network devices.
-In addtions, GNS3 hosts a large amont of compatible network appliances in the [GNS3 Market Place](https://www.gns3.com/marketplace). )
-
-When you have installed the GNS3, I recommend that you proceed to create [your first GNS3 topology](https://docs.gns3.com/docs/getting-started/your-first-gns3-topology/#!) following the guidelines to get to know the GNS3 GUI and to see if the GNS3 is installed correctly.
 
 
 
