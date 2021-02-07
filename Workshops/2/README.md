@@ -46,7 +46,7 @@ Try to ping following:
 This should work without any problems when the interfaces have been configured correctly.
 
 > ##### Challenge 3.1
-> Try to ping eth1 of "Router-1" from "Node-1", why is this not possible?
+> Explain why you cannot ping eth1 of "Router-1" from "Node-1"?
 > ```
 >
 >
