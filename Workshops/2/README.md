@@ -92,11 +92,11 @@ Ensure that you can ping 2001:878:402:3::1 from "Router 2".
 >
 > ```
 
-On "Router 1" add a route to the 2001:878:402:2/64 network by running:
+On "Router 1" add a route to the 2001:878:402:2::/64 network by running:
 
     ip -6 route add 2001:878:402:2::/64 via 2001:878:402:3::2
 
-On "Router 2" add a route to the 2001:878:402:1/64 network:
+On "Router 2" add a route to the 2001:878:402:1::/64 network:
 
     ip -6 route add 2001:878:402:1::/64 via 2001:878:402:3::1
 
