@@ -4,6 +4,8 @@
 
 The goal of this workshop is to get hands-on experience with IPv4-IPv6 transition mechanisms. The workshop consists of two parts. The first part deals with simple IPv6-in-IPv4 tunnelling, while the second part explores a protocol translation mechanism.
 
+TIP: You may consider to split the configurations into two different topology projects (labs).
+
 ## Part 1: Simple tunnel setup
 
 We first consider the process of setting up a single IPv6-in-IPv4 tunnel. The IPv6-in-IPv4 tunnel allows connections to IPv6 networks through IPv4 networks. This is what is typically used today when connecting to IPv6 networks through the Internet.
