@@ -1,4 +1,4 @@
-# Workshop 2
+# Workshop 3
 
 ## Assignment: Time Protocol with Network Sockets
 
