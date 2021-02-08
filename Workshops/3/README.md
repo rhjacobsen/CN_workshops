@@ -24,7 +24,7 @@ A example of a Perl implementation of a client and a server program is given in 
 
 ### Interoperability Tests
 
-Each group is required to test their time protocol implementation (i.e., both client and server) against at least two independent implementations made by other groups. Each group must therefore advertise the location of their client and server applications (not the source code) with instructions on how to run it such that they can be executed by the other groups. This informations must be available from the course web pages in Campusnet using the "Student" folder in the File Sharing function.
+Each group is required to test their time protocol implementation (i.e., both client and server) against at least two independent implementations made by other groups. Each group must therefore advertise the location of their client and server applications (not the source code) with instructions on how to run it such that they can be executed by the other groups. This informations must be available from the course management system.
 
 The client and the server is required to take command-line arguments as specified below:
 
@@ -54,8 +54,6 @@ The project must be documented in a short report of no more than two pages (excl
 * A description of how the socket API is used in the implementation.
 * A description of how it has been ensured that the implementation conforms to the protocol standard as described in [RFC 868](http://tools.ietf.org/html/rfc868), including a documentation of the conformance testing described in the previous section.
 * A description of problems encountered, assumptions and simplifications made (if applicable).
-* An appendix containing the source code for the client and the server applications.
-Reports should be emailed in pdf or ascii format to rhj@iha.dk.
 
 ### References
 
