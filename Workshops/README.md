@@ -12,4 +12,4 @@ Fortunately, in the latter case you can store your [networking](https://docs.gns
 
 ### How can I transfer files between my host OS and the GNS3 VM
 
-I do not know this yet. Try to look [here](https://www.itechtics.com/share-files-between-guest-host-hyper-v/).
+I do not know this yet. Try to look [here](https://www.itechtics.com/share-files-between-guest-host-hyper-v/) or check out [this](https://www.youtube.com/watch?v=pQHZ3sgQNrM) video.
