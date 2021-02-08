@@ -1,3 +1,3 @@
-# Install and Config guide for GNS3 with Docker
+# Install and Config guides
 
-[installation for windows 10](insteall_guide.md)
+[Installation guide for Windows 10](Installation_guide.md)
