@@ -244,7 +244,7 @@ Add default gateway routes to Node-1 and Node-2, respectively:
 
 The program tcpdump can be used as an alternative to Wireshark for capturing packets. Packet capture files can be stored and loaded into Wireshark for a more user-friendly presentation. An example of use is ```tcpdump -i eth0 -w mycapture.pcap```, that will dump all packets that passes the eth0 interface to the file mycapture.pcap.
 
-TIP: You may use ```-c 5``` to limit the number of packets to be captures. Note also that the ```tcpdump -r``` option allows you to read a .pcap file and print it to the console.
+TIPS: You may use ```tcpdump -c 5``` to limit the number of packets (e.g., 5 packets) to be captured. Note also that the ```tcpdump -r``` option allows you to read a .pcap file and print it to the console.
 
 
 > ##### Challenge 3.6
