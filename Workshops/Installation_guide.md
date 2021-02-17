@@ -42,7 +42,7 @@ after following the guided steps below.
 
 - [Documentation for GNS3](https://docs.gns3.com/).
 - [Git software download](https://git-scm.com/downloads).
-- Alternative guide: [Install GNS3 VM on Windows 10](https://summarynetworks.com/info-tlc/installing-gns3-vm-on-hyper-v-virtualization-platform-in-windows-10/)
+- [Install GNS3 VM on Windows 10](https://summarynetworks.com/info-tlc/installing-gns3-vm-on-hyper-v-virtualization-platform-in-windows-10/)
 - [Youtube video showing how to install GNS3 VM with Hyper-V](https://www.youtube.com/watch?v=YME5I_Er-0U)
 - [Enabling Hyper-V in Windows Home edition](https://www.itechtics.com/enable-hyper-v-windows-10-home/#:~:text=%20Enable%20Hyper-V%20in%20Windows%2010%20Home%20,see%20the%20Windows%20updates%20screen%20upon...%20More%20)
 - [How to Enable PowerShell Scripts in Windows 10 via PowerShell Execution Policy](https://winbuzzer.com/2020/07/10/how-to-enable-powershell-scripts-in-windows-10-via-powershell-execution-policy-xcxwbt/)
