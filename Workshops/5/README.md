@@ -1,5 +1,7 @@
 # Workshop 5: Dynamic Routing Part II
 
+[ [Back to Root page](https://github.com/rhjacobsen/CN_workshops/blob/master/README.md) ]
+
 This workshop is dedicated to the OPSF (Open Shortest Path First) and BGP (Border Gateway Protocol) dynamic routing protocol. OPSF is a link state routing protocol used to maintain routing within an autonomous system. In contrast, BGP is mainly used by service providers to perform the routing between autonomous systems in the Internet.
 
 ### Lab Overview
