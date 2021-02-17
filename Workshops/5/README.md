@@ -12,7 +12,7 @@ In this workshop will be looking at the network scenario sketched below:
 
 #### Topology
 
-![LAB05](/workshops/workshop 05/images/LAB05.png)
+![LAB05](imgs/LAB05.png)
 
 #### AS Overview
 
