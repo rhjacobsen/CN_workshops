@@ -1,6 +1,4 @@
-# Workshop 5
-
-## Dynamic Routing Part II
+# Workshop 5: Dynamic Routing Part II
 
 ## Part 1: Dynamic routing with BGP
 
