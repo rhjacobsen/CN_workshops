@@ -1,9 +1,4 @@
-# Workshop 4
-
-## Dynamic Routing Part I
-
-(c) 2011-2012 Rune Hylsberg Jacobsen, Aarhus University School of Engineering.
-Version 0.4, date 2012-10-09.
+# Workshop 4: Dynamic Routing Part I
 
 ## IP Routing
 
