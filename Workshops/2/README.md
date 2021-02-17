@@ -1,5 +1,7 @@
 # Workshop 2: IPv6 transition mechanisms
 
+[ [Back to Root page](https://github.com/rhjacobsen/CN_workshops/blob/master/README.md) ]
+
 The goal of this workshop is to get hands-on experience with IPv4-IPv6 transition mechanisms. The workshop consists of two parts. The first part deals with simple IPv6-in-IPv4 tunnelling, while the second part explores a protocol translation mechanism.
 
 TIP: You may consider to split the configurations into two different topology projects (labs).
