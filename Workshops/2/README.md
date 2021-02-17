@@ -1,6 +1,4 @@
-# Workshop 2
-
-## IPv6 transition mechanisms
+# Workshop 2: IPv6 transition mechanisms
 
 The goal of this workshop is to get hands-on experience with IPv4-IPv6 transition mechanisms. The workshop consists of two parts. The first part deals with simple IPv6-in-IPv4 tunnelling, while the second part explores a protocol translation mechanism.
 
