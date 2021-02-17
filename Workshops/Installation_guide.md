@@ -1,6 +1,6 @@
 # Installation Guide (Windows 10)
 
-[ [Back to README.md](https://github.com/rhjacobsen/CN_workshops/blob/master/README.md) ]
+[ [Back to Root page](https://github.com/rhjacobsen/CN_workshops/blob/master/README.md) ]
 
 ## About the setup
 
