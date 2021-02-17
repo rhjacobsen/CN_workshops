@@ -18,7 +18,9 @@ To successfully run the GNS3 simulator, there are some [hardware requirements](#
 
 ### Guide for installation of the environment
 
-[Installation guide (Windows 10)](https://github.com/rhjacobsen/CN_workshops/blob/master/Workshops/Installation_guide.md)
+GNS3 is said to run on the Windows, Linux and the MacOS platform. It supports virtualization with VMware, Virtual Box and Hyper-V technology. The guide below brings you through the installation on Windows 10 using Hyper-V virtualization. 
+
+- [Installation guide (Windows 10)](https://github.com/rhjacobsen/CN_workshops/blob/master/Workshops/Installation_guide.md)
 
 # Potential useful references
 
