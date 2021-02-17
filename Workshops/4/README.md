@@ -1,5 +1,7 @@
 # Workshop 4: Dynamic Routing Part I
 
+[ [Back to Root page](https://github.com/rhjacobsen/CN_workshops/blob/master/README.md) ]
+
 ## IP Routing
 
 This workshop consists of two parts. The first part shows how routing can be setup statically in an IP network, while the second part uses the RIP protocol to perform dynamic routing. We will only be using IPv4 in this workshop as the IPv4 addresses are shorter and hence easier to deal with. The basic concepts are the same for IPv6 networks.
