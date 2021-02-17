@@ -151,7 +151,7 @@ We have removed the switch and linked the routers directly together. We do this 
 
 #### Topology
 
-![LAB03_6IN4](/workshops/workshop 04/images/LAB04_RIP.png)
+![LAB03_6IN4](imgs/LAB04_RIP.png)
 
 #### Networks
 
