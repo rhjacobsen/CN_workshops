@@ -1,6 +1,4 @@
-# Workshop 3
-
-## Assignment: Time Protocol with Network Sockets
+# Workshop 3: Assignment: Time Protocol with Network Sockets
 
 ### Description and Requirements
 
