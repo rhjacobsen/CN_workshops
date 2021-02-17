@@ -5,7 +5,7 @@
 ## About the setup
 
 The workshops are prepared for the GNS3 simulator. GNS3 is open source, free software that you can download from [gns3.com](http://gns3.com). 
-GNS3 is supported on Windows, Linux and MacOS. It comes with a bundled of various prerequisite and optional software such as the Wireshark protocol analyzer. To access network appliances, a terminal software such as Putty will be used. You will also need to install a [GNS3 virtual machine](https://gns3.com/software/download-vm) to run a server with a virtualized network on your computer. The VM server is available for VMWare, Virtual box and Hyper-V. Note that Hyper-V comes with Windows 10 but must be enabled. 
+GNS3 is supported on Windows, Linux and MacOS. It comes with a bundled of various prerequisite and optional software such as the Wireshark protocol analyzer. To access network appliances, a terminal software such as Putty will be used. You will also need to install a [GNS3 virtual machine](https://gns3.com/software/download-vm) to run a server with a virtualized network on your computer. The VM server is available for VMWare, VirtualBox and Hyper-V. Note that Hyper-V comes with Windows 10 but must be enabled. 
 
 To successfully run the GNS3 simulator, there are some [hardware requirements](#hw_reqs) to consider. According to the GNS3 web page, the following are the minimum requirements for a Windows GNS3 environment:
 - Processor: 2 or more Logical cores
