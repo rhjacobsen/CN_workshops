@@ -8,7 +8,7 @@ This workshop consists of two parts. The first part shows how routing can be set
 
 #### Topology
 
-![LAB03_6IN4](/imgs/LAB04_STATIC.png)
+![LAB03_6IN4](Workshops/4/imgs/LAB04_STATIC.png)
 
 #### Networks
 
