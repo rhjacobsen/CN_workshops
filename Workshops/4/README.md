@@ -103,7 +103,7 @@ From "Node 1" ping eth0 of "Router 1" (this should now work).
 
 
 > ##### Challenge 4.4
-> For the same reasons as "Node 1" could not ping eth0 of "Router 1" before we added a default route, "Router 1" cannot reach eth1 of "Router 2". Is it reasonable to solve this problem by adding a default gateway?
+> For the same reasons as "Node 1" could not ping eth0 of "Router 1" before we added a default route, "Router 1" cannot reach eth1 of "Router 2". Is it reasonable to solve this problem by adding a default gateway? Explain your answer.
 > ```
 >
 >
