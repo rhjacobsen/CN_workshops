@@ -268,7 +268,7 @@ Now add the default routes to the 3 nodes.
 Ensure that you can ping "Node 2" from "Node 1". If not, there is a problem with the routing tables somewhere in the network.
 
 
-> ##### Challenge 4.7
+> ##### Challenge 4.8
 > Run ```traceroute -n 192.168.2.2``` on "Node 1" to find the route packets travel from "Node 1" to "Node 2". Write down the IP addresses and the routers it corresponds to.
 > ```
 >
@@ -287,7 +287,7 @@ Packets destined to "Node 2", should go through Router 1 and then Router 2.
 Inspect the route table at Router 1 over the next 10-30 sec. You should see the route-entry for 192.168.2.0/24 disappear. Now wait another 10-60 sec and the entry should be back.
 
 
-> ##### Challenge 4.8
+> ##### Challenge 4.9
 > Briefly explain what happens, both when the route is being removed and when it is being established again.
 > ```
 >
@@ -299,7 +299,7 @@ Inspect the route table at Router 1 over the next 10-30 sec. You should see the 
 > ```
 
 
-> ##### Challenge 4.9
+> ##### Challenge 4.10
 > Run ```traceroute``` again on "Node 1" to find the route. Write it down and briefly explain if it is as expected.
 > ```
 >
@@ -316,7 +316,7 @@ Finally, we want to investigate exactly which information is exchanged in the RI
 * Wait until you can see that a number of RIP messages have been captured by Wireshark, and then stop the capture.
 * Inspect these packets.
 
-> ##### Challenge 4.10
+> ##### Challenge 4.11
 > Which routes does Router 3 advertise to Router 1? And what are the metrics?
 > ```
 >
