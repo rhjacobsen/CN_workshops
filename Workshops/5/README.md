@@ -7,7 +7,7 @@ This workshop is dedicated to the OPSF (Open Shortest Path First) and BGP (Borde
 ### Lab Overview
 
 In this workshop will be looking at the network scenario sketched below. 
-Note that we will use the QRouter for this laboratory as it prepared for using the Quagga Command Line Interface (CLI).
+Note that we will use the QRouter for this laboratory as it prepared for using the Quagga command line interface known as VTY (Virtual TeletYpe interface). 
 
 #### Topology
 
@@ -52,6 +52,8 @@ DNK-2 is the preferred router to exit AS 65001. Customized local preferences are
 * OSPF to BGP redistribution:
     * On DNK-2: OSPF networks are injected into BGP with the default values.
     * On DNK-3: OSPF networks are injected into BGP with the default values.
+
+Spent a moment to study the  [VTY terminal interface](https://www.quagga.net/docs/docs-multi/VTY-Overview.html#VTY-Overview) in Quagga. 
 
 
 ### Preparation
