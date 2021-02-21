@@ -197,9 +197,9 @@ We have removed the switch and linked the routers directly together. We do this 
 | Node 1	  | 192.168.1.2 / 16  | N/A               |  N/A
 | Node 2	  | 192.168.2.2 / 16  | N/A               |  N/A
 | Node 3	  | 192.168.3.2 / 16  | N/A               |  N/A
-| Router 1	| 192.168.0.1 / 30  | 192.168.0.10 / 30   | 192.168.1.1 /24
-| Router 2	| 192.168.0.5 / 30  | 192.168.0.2 / 30    | ...
-| Router 3	| 192.168.0.9 / 30  | 192.168.0.6 / 30    | ...
+| Router 1	| 192.168.0.1 / 30  | 192.168.0.10 / 30   | 192.168.1.1 / 24
+| Router 2	| 192.168.0.5 / 30  | 192.168.0.2 / 30    | 192.168.2.1 / 24
+| Router 3	| 192.168.0.9 / 30  | 192.168.0.6 / 30    | 192.168.3.2 / 24
 
 Remember to add the persistent configurations as this may eventually save you a lot of time.
 
