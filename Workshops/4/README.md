@@ -88,6 +88,8 @@ On "Node 1" add "Router 1" as default router (gateway) using the following comma
 ip route add default via 192.168.1.1
 ```
 
+Note that adding the line ```gateway 192.168.1.1``` under the ```iface``` will add the default route to the persisten configuration.
+
 From "Node 1" ping eth0 of "Router 1" (this should now work).
 
 > ##### Challenge 4.3
