@@ -300,7 +300,7 @@ Inspect the route table at Router 1 over the next 10-30 sec. You should see the 
 
 
 > ##### Challenge 4.10
-> Run ```traceroute``` again on "Node 1" to find the route. Write it down and briefly explain if it is as expected.
+> With the link between Router-1 and Router-2 disables, run ```traceroute``` again on "Node 1" to find the route. Write it down and briefly explain if it is as expected.
 > ```
 >
 >
@@ -312,7 +312,7 @@ Inspect the route table at Router 1 over the next 10-30 sec. You should see the 
 
 Finally, we want to investigate exactly which information is exchanged in the RIP messages.
 
-* Start a capture between Router 1 and Router 3.
+* Start a capture traffic between Router 1 and Router 3.
 * Wait until you can see that a number of RIP messages have been captured by Wireshark, and then stop the capture.
 * Inspect these packets.
 
