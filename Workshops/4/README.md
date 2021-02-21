@@ -193,7 +193,7 @@ We have removed the switch and linked the routers directly together. We do this 
 #### IP Allocation
 
 | Node      |	Eth0 	            | Eth1                | Eth2
-|-----------|-------------------|-------------
+|-----------|-------------------|-------------------------|-------
 | Node 1	  | 192.168.1.2 / 16  | N/A               |  N/A
 | Node 2	  | 192.168.2.2 / 16  | N/A               |  N/A
 | Node 3	  | 192.168.3.2 / 16  | N/A               |  N/A
