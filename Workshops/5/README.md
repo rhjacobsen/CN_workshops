@@ -201,7 +201,7 @@ router bgp 65005
 
 ### Redistribute OSPF and BGP
 
-Start by redistributing the BGP routes into the ospf by adding following lines to DNK-2 and DNK-3 (Remember they have differnet metrics)
+Start by redistributing the BGP routes into the OSPF by adding following lines to DNK-2 and DNK-3 (Remember they have differnet metrics)
 
 ```
 router ospf
