@@ -143,6 +143,29 @@ This tells the routing system, that network 192.168.2.0 (with netmask 255.255.25
 >
 > ```
 
+Similar to the procedure above for "Router 1", "Router 2" need to setup a route to the network 192.168.1.0/24. This is done by entering the following on the commandline of "Router 2":
+
+```
+ip route add 192.168.1.0/24 via 192.168.0.1
+```
+
+This tells the routing system on "Router 2", that network 192.168.1.0 (with netmask 255.255.255.0) is available via the IP address 192.168.0.1.
+
+The traceroute command ...
+
+> ##### Challenge 4.7
+> what is the output if Node-1 tries to trace the route to eth of Router 2? Try it out. Explain the observed output.
+> ```
+>
+>
+>
+>
+>
+>
+> ```
+
+Continue following the steps above until all nodes: Node-1, Node-2 and Node-3 can ping each other.
+
 ### Part 2: Dynamic Routing
 
 Having configured routing table entries manually, we now consider dynamic routing. We will use the Quagga routing suite which supports a number of routing protocols.
