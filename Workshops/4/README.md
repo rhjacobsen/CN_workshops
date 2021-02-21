@@ -151,7 +151,7 @@ ip route add 192.168.1.0/24 via 192.168.0.1
 
 This tells the routing system on "Router 2", that network 192.168.1.0 (with netmask 255.255.255.0) is available via the IP address 192.168.0.1.
 
-The traceroute command ...
+The program traceroute can be used to find out which paths packets travel in a network. It works by setting the Time-To-Live (TTL) of a test packet to 1, and increasing it by one for each iteration. When a network node receives a packet with a TTL of 1, it responds with an ICMP message (TTL exceeded). Recall, that TTL is decreased by each node when handling it.
 
 > ##### Challenge 4.7
 > what is the output if Node-1 tries to trace the route to eth of Router 2? Try it out. Explain the observed output.
@@ -266,7 +266,6 @@ Configure the remaining two routers using the previous step as a template. When 
 Now add the default routes to the 3 nodes.
 
 Ensure that you can ping "Node 2" from "Node 1". If not, there is a problem with the routing tables somewhere in the network.
-The program traceroute can be used to find out which paths packets travel in a network. It works by setting the Time-To-Live (TTL) of a test packet to 1, and increasing it by one for each iteration. When a network node receives a packet with a TTL of 1, it responds with an ICMP message (TTL exceeded). Recall, that TTL is decreased by each node when handling it.
 
 
 > ##### Challenge 4.7
