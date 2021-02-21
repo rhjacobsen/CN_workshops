@@ -201,7 +201,7 @@ We have removed the switch and linked the routers directly together. We do this 
 | Router 2	| 192.168.0.5 / 30  | 192.168.0.2 / 30
 | Router 3	| 192.168.0.9 / 30  | 192.168.0.6 / 30
 
-Remember to add the persistent config
+Remember to add the persistent configurations as this may eventually save you a lot of time.
 
 ### Zebra and Ripd
 
