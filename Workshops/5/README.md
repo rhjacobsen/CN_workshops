@@ -71,11 +71,13 @@ DNK-2 is the preferred router to exit AS 65001. Customized local preferences are
 
 ### Configuration the Interfaces
 
-To enter configure mode use following command
+To enter configure mode use following command:
 
 ```
 configure terminal
 ```
+
+If this command fails, you have probably not used the QRouter to build the laboratory. 
 
 Interfaces should be configured like this
 
