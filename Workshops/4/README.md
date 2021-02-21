@@ -246,7 +246,7 @@ The first three lines enable the RIP protocol (router rip), for the two interfac
 
 The two "redistribute" lines means that the Quagga service will redistribute both connected routes and static routes using RIP announcements. Static routes are routes created manually, like we did in part 1, while connected routes are routes which are automatically added when assigning IP addresses to interfaces.
 
-The last two lines tell the RIP daemon to accept updates on eth0 and eth1 without authentication. We do not use authentication here, as it will make configuration more difficult without yielding much new information. Also, we only want to receive updates from eth0 and eth1, as "Node 1" should not be able to update routing information on the router.
+The last two lines tell the RIP daemon to accept updates on eth0 and eth1 without authentication. We do not use authentication here, as it will make configuration more difficult without yielding much new learning. Also, we only want to receive updates from eth0 and eth1, as "Node 1" should not be able to update routing information on the router.
 
 Change owner on /etc/quagga/ripd.conf using
 
