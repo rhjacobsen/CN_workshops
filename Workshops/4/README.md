@@ -170,7 +170,7 @@ Continue following the steps above until all nodes: Node-1, Node-2 and Node-3 ca
 
 Having configured routing table entries manually, we now consider dynamic routing. We will use the Quagga routing suite which supports a number of routing protocols.
 
-Quagga consists of a number of daemons. For this workshop we will be using two Quagga daemons: Zebra and Ripd. Zebra is responsible for making changes to the routing table of a node and communicating with the routing protocol daemon. Ripd is a router daemon implementing the RIP protocol.
+Quagga consists of a number of daemons to control individual routing protocols. For this workshop we will be using two Quagga daemons: Zebra and Ripd. Zebra is responsible for making changes to the routing table of a node and communicating with the routing protocol daemon. Ripd is a router daemon implementing the RIP protocol.
 
 We have removed the switch and linked the routers directly together. We do this to better show how rip works when one of the links disappear.
 
