@@ -154,7 +154,7 @@ This tells the routing system on "Router 2", that network 192.168.1.0 (with netm
 The program traceroute can be used to find out which paths packets travel in a network. It works by setting the Time-To-Live (TTL) of a test packet to 1, and increasing it by one for each iteration. When a network node receives a packet with a TTL of 1, it responds with an ICMP message (TTL exceeded). Recall, that TTL is decreased by each node when handling it.
 
 > ##### Challenge 4.7
-> what is the output if Node-1 tries to trace the route to eth of Router 2? Try it out. Explain the observed output.
+> what is the output if Node-1 tries to trace the route to eth1 of Router 2? Try running Run ```traceroute -n 192.168.2.1``` on "Node-1"  and explain the observed output.
 > ```
 >
 >
