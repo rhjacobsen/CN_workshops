@@ -6,7 +6,8 @@ This workshop is dedicated to the OPSF (Open Shortest Path First) and BGP (Borde
 
 ### Lab Overview
 
-In this workshop will be looking at the network scenario sketched below:
+In this workshop will be looking at the network scenario sketched below. 
+Note that we will use the QRouter for this laboratory as it prepared for using the Quagga Command Line Interface (CLI).
 
 #### Topology
 
