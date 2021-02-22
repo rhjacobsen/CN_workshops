@@ -8,9 +8,7 @@ GNS3 is said to work on Windows, Linux and Mac with an number of different virtu
 
 ## Can I make persistent storage of my network configurations
 
-In GNS3, by default, nothing will [persist](https://docs.gns3.com/docs/emulators/docker-support-in-gns3/#persistence) after reloading your project unless your Docker Container is configured to do so. Your Docker Container may not be configured to have persistent data. This means if you exit GNS3 or restart your GNS3 VM your configuration will be lost. Also if you stop and restart an appliance the configuration will not persist in the memory of that particular appliance. 
-
-Fortunately, in the latter case you can store your [networking](https://docs.gns3.com/docs/emulators/docker-support-in-gns3/#networking) configuration in scripts. For instance the /etc/network/interfaces config file contains interface configurations. See 
+In GNS3, by default, nothing will [persist](https://docs.gns3.com/docs/emulators/docker-support-in-gns3/#persistence) after reloading your project. However, it is possible to configure appliances to store configuration in specific files such as /etc/network/interfaces and /etc/hosts as well as specified directories. To access this function, right-click on the appliance in your laboratory and choose _configure_. The /etc/network/interface file is accessible under Network configuration whereas the /etc/hosts and other directories can be found on the Advanced tab.
 
 ## How can I transfer files between my host OS and the GNS3 VM
 
