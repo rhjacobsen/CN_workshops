@@ -1,3 +1,6 @@
+## GNS3 project files
+*.gns3project
+
 ## Core latex/pdflatex auxiliary files:
 *.aux
 *.lof
