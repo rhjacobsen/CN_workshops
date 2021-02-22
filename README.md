@@ -11,7 +11,7 @@ To successfully run the GNS3 simulator, there are some [hardware requirements](#
 ### List of workshops
 
 - [Workshop 1](https://github.com/rhjacobsen/CN_workshops/tree/master/Workshops/1): Configuring IPv4 and IPv6
-- [Workshop 2](https://github.com/rhjacobsen/CN_workshops/tree/master/Workshops/2): IPv6 transition mechanism
+- [Workshop 2](https://github.com/rhjacobsen/CN_workshops/tree/master/Workshops/2): IPv6 transition mechanisms
 - [Workshop 3](https://github.com/rhjacobsen/CN_workshops/tree/master/Workshops/3): Network programming
 - [Workshop 4](https://github.com/rhjacobsen/CN_workshops/tree/master/Workshops/4): Routing part 1
 - [Workshop 5](https://github.com/rhjacobsen/CN_workshops/tree/master/Workshops/5): Routing part 2
