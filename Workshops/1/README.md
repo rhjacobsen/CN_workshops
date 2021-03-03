@@ -80,7 +80,7 @@ The experiments consists of the following steps. When asked to fill in informati
 
 ### Step 3: Setup DHCP Server
 
- * Create the file /etc/dhcpd.conf and add the content:
+ * Create the file /etc/dhcpd.conf on "Router-1" and add the content:
 
     ```
     # For more info look in /etc/dhcp/dhcpd.conf.example
