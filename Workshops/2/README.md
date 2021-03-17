@@ -47,7 +47,7 @@ Try to ping following:
 
 This should work without any problems when the interfaces have been configured correctly.
 
-> ##### Challenge 3.1
+> ##### Challenge 2.1
 > Explain why you cannot ping eth1 of "Router-1" from "Node-1"?
 > ```
 >
@@ -83,7 +83,7 @@ Login to "Router 2" and create the other endpoint of the tunnel:
 
 Ensure that you can ping 2001:878:402:3::1 from "Router 2".
 
-> ##### Challenge 3.2
+> ##### Challenge 2.2
 > Currently, it is not possible to ping 2001:878:402:1::1 from "Router 2". Briefly explain why.
 > ```
 >
@@ -120,7 +120,7 @@ After a couple of ping requests have been answered, stop the ping and Wireshark 
 
 Inspect the ping packets captured.
 
-> ##### Challenge 3.3
+> ##### Challenge 2.3
 > Explore and briefly explain the structure of the ping packets captured using Wireshark.
 > ```
 >
@@ -212,7 +212,7 @@ Add default gateway routes to Node-1 and Node-2, respectively:
     ip route replace default via 192.168.1.1             (Node 2)
 
 
-> ##### Challenge 3.4
+> ##### Challenge 2.4
 > Try to ping Node-2 from Node-1. What address should you ping and what is the results?
 > ```
 >
@@ -227,7 +227,7 @@ Add default gateway routes to Node-1 and Node-2, respectively:
 > ```
 
 
-> ##### Challenge 3.5
+> ##### Challenge 2.5
 > Inspect the file /var/spool/tayga/dynamic.map and explain its content and function?
 > ```
 >
@@ -247,7 +247,7 @@ The program tcpdump can be used as an alternative to Wireshark for capturing pac
 TIPS: You may use ```tcpdump -c 5``` to limit the number of packets (e.g., 5 packets) to be captured. Note also that the ```tcpdump -r``` option allows you to read a .pcap file and print it to the console.
 
 
-> ##### Challenge 3.6
+> ##### Challenge 2.6
 > Capture packets sent over the nat64 interface. Explain the content of the packet capture and clarify the main differences from a similar setup using 1) pure IPv4 networking and 2) pure IPv6 networking.
 > ```
 >
