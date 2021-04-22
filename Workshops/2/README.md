@@ -121,7 +121,7 @@ After a couple of ping requests have been answered, stop the ping and Wireshark 
 Inspect the ping packets captured.
 
 > ##### Challenge 2.3
-> Explore and briefly explain the structure of the ping packets captured using Wireshark.
+> Explore and briefly explain the structure of the ping packets captured using Wireshark. Expand one of the messages and examine its content.
 > ```
 >
 >
