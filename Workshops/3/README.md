@@ -11,10 +11,10 @@ There are no requirements regarding the programming language (e.g., Perl, Python
 Note, that the virtual nodes in GNS3 comes with a Python 3.5 and Perl 5.22 intepreter installed, and that the use of an intepreted language makes it easier to modify the program on the node. However, it is not required to use the GNS3 virtual environment for testing.
 
 #### Optional and not a mandatory part of the workshop:
-The advanced student may want to implement one of the following features in addition to the pure client-server communication.
+The advanced student may want to implement the following features in addition to the pure client-server communication.
 
 * Calculate the [clock skew](http://en.wikipedia.org/wiki/Clock_skew) between the server and the client and take action to set client clock to the server clock.
-* The timestamp is encrypted by the server and decrypted by the client using a symmetric encryption scheme. The proposed scheme is to use the [XOR bitwise string operator](http://perldoc.perl.org/perlop.html#Bitwise-String-Operators) with a pre-shared key of same size as the timestamp (32 bit).
+* The timestamp is encrypted by the server and decrypted by the client using a simple symmetric encryption scheme. The proposed scheme is to use the [XOR bitwise string operator](http://perldoc.perl.org/perlop.html#Bitwise-String-Operators) with a pre-shared key of same size as the timestamp (32 bit).
 
 ### Background
 
