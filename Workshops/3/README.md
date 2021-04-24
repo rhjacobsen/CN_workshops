@@ -6,7 +6,7 @@
 
 This workshop is concerned with the implementation of a client and a server for the Time Protocol specified in [RFC 868](http://tools.ietf.org/html/rfc868) (STD 026) using the socket application program interface (API).
 
-There are no requirements regarding the programming language (e.g., Perl, C, C++, Java etc.) used to implement the client and server applications. The client and the server are required to run on the Linux machines and must be implemented for the UDP-based service and the TCP-based service. Make sure that your timestamp is compliant with the examples in [RFC 868](http://tools.ietf.org/html/rfc868).
+There are no requirements regarding the programming language (e.g., Perl, Python, C/C++, Java etc.) used to implement the client and server applications. The client and the server are required to run on the Linux machines and must be implemented for the UDP-based service and the TCP-based service. Make sure that your timestamp is compliant with the examples in [RFC 868](http://tools.ietf.org/html/rfc868).
 
 Note, that the virtual nodes in GNS3 comes with a Python 3.5 and Perl 5.22 intepreter installed, and that the use of an intepreted language makes it easier to modify the program on the node. However, it is not required to use the GNS3 virtual environment for testing.
 
