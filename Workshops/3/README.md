@@ -50,11 +50,13 @@ Possible Perl functions to consider: [localtime](http://perldoc.perl.org/functio
 
 The project must be documented in a short report of no more than two pages (excluding source code). The report should contain the following elements:
 
-* A short overall description of how the implementation has been structured and a description of how to compile (if applicable) and use the programs. Remember to set the appropriate permission on the files.
-* A description of how the socket API is used in the implementation.
-* A description of how the implementation has been tested to document that the implementation conforms to the protocol standard as described in [RFC 868](http://tools.ietf.org/html/rfc868), including a documentation of the conformance testing described in the previous section.
-* A description of problems encountered, assumptions and simplifications made (if applicable).
-* A description of the results and the learnings of the interoperability testing with at least one other groups implementation.
+1. A short overall description of how the implementation has been structured and a description of how to compile (if applicable) and use the programs. Remember to set the appropriate permission on the files.
+2. A description of how the socket API is used in the implementation.
+3. A description of how the implementation has been tested to document that the implementation conforms to the protocol standard as described in [RFC 868](http://tools.ietf.org/html/rfc868), including a documentation of the conformance testing described in the previous section.
+4. A description of problems encountered, assumptions and simplifications made (if applicable).
+5. A description of the results and the learnings of the interoperability testing with at least one other groups implementation.
+
+Please, check the that you have answered all the points 1-5 above before hand-in.
 
 ### References
 
