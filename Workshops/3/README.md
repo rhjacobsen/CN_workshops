@@ -48,7 +48,7 @@ Possible Perl functions to consider: [localtime](http://perldoc.perl.org/functio
 
 ### Reporting
 
-The project must be documented in a short report of no more than two pages (excluding source code). The report should contain the following elements:
+The project must be documented in a short report of no more than four pages (excluding source code). The report should contain the following elements:
 
 1. A short overall description of how the implementation has been structured and a description of how to compile (if applicable) and use the programs. Remember to set the appropriate permission on the files.
 2. A description of how the socket API is used in the implementation.
