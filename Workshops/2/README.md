@@ -248,7 +248,7 @@ TIPS: You may use ```tcpdump -c 5``` to limit the number of packets (e.g., 5 pac
 
 
 > ##### Challenge 2.6
-> Capture packets sent over the nat64 interface. Explain the content of the packet capture and clarify the main differences from a similar setup using 1) pure IPv4 networking and 2) pure IPv6 networking.
+> Capture packets sent over the nat64 interface for traffic sent between Node-1 and Node-2. Explain the content of the packet capture and clarify the main differences from a similar setup using 1) pure IPv4 networking and 2) pure IPv6 networking.
 > ```
 >
 >
