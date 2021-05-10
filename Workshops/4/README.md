@@ -170,7 +170,7 @@ Continue following the steps above until all nodes: Node-1, Node-2 and Node-3 ca
 
 ### Part 2: Dynamic Routing
 
-Having configured routing table entries manually, we now consider dynamic routing. We will use the Quagga routing suite which supports a number of routing protocols.
+Having configured forwardig table entries manually, we now consider dynamic routing. We will use the Quagga routing suite which supports a number of routing protocols.
 
 Quagga consists of a number of daemons to control individual routing protocols. For this workshop we will be using two Quagga daemons: Zebra and Ripd. Zebra is responsible for making changes to the routing table of a node and communicating with the routing protocol daemon. Ripd is a router daemon implementing the RIP protocol.
 
@@ -286,7 +286,7 @@ Packets destined to "Node 2", should go through Router 1 and then Router 2.
 
 * Disable eth1 on Router 2
 
-Inspect the route table at Router 1 over the next 10-30 sec. You should see the route-entry for 192.168.2.0/24 disappear. Now wait another 10-60 sec and the entry should be back.
+Inspect the forarding table at Router 1 over the next 10-30 sec. You should see the route-entry for 192.168.2.0/24 disappear. Now wait another 10-60 sec and the entry should be back.
 
 
 > ##### Challenge 4.9
