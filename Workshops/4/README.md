@@ -290,7 +290,7 @@ Inspect the forarding table at Router 1 over the next 10-30 sec. You should see 
 
 
 > ##### Challenge 4.9
-> Briefly explain what happens, both when the route is being removed and when it is being established again.
+> Briefly explain what happens, both when the route is being removed and when it is being established again. Hint: Examine the forwarding tables on relevant nodes and use traceroute to verify routes in the network.
 > ```
 >
 >
