@@ -263,7 +263,7 @@ An example:
     MAC address:    00:B0:D0:66:6F:54
     Network prefix: 2001:1:1:1::/64
     EUI-64:         02:B0:D0:FF:FE:66:6F:54
-    Global unicast: 2001:1:1:1::02B0:D0FF:FE66:6F54
+    Global unicast: 2001:1:1:1:02B0:D0FF:FE66:6F54
 
  * Login to Node-2 and obtain the MAC-address by running
     ```
