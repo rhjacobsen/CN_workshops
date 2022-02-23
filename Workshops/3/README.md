@@ -1,4 +1,4 @@
-# Workshop 3: Assignment: Time Protocol with Network Sockets
+# Workshop 3: Time Protocol with Network Sockets
 
 [ [Back to Root page](https://github.com/rhjacobsen/CN_workshops/blob/master/README.md) ]
 
