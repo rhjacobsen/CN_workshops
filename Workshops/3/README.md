@@ -65,7 +65,6 @@ Please, check the that you have answered all the points 1-5 above before hand-in
 * Simon Cozens, Begining Perl, URL: http://www.perl.org/books/beginning-perl/.
 * Perl Programming Documentation (version 5). URL: http://perldoc.perl.org/
 * The Perl Cook book, Chapter 17: Sockets. URL: http://docstore.mik.ua/orelly/perl/cookbook/ch17_01.htm.
-* Socket Programming Tutorial, URL: http://www.prasannatech.net/2008/07/socket-programming-tutorial.html
 
 ## Appendix A: Examples with Network Programming in Perl
 
