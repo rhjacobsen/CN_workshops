@@ -1,5 +1,5 @@
 # Installation guide for Ubuntu 20.04 with VMWare
-Installation of GNS3 following (this)[This] guide.
+Installation of GNS3 following [this](https://docs.gns3.com/docs/getting-started/installation/linux) guide.
 
 
 - Installation of VMWare Workstation Player from this guide. After a restart vmon and vmrun tool were compiled and added to the Linux kernel.
