@@ -14,3 +14,4 @@ Installation of GNS3 following (this)[This] guide.
 
 ## References
 1. [https://itdeepdive.com/2020/04/install-and-configure-gns3-with-vmware-workstation-player-free/](https://itdeepdive.com/2020/04/install-and-configure-gns3-with-vmware-workstation-player-free/)
+2. [GNS3 Setup wizard with the GNS3 VM](https://docs.gns3.com/docs/getting-started/setup-wizard-gns3-vm/)
