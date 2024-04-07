@@ -95,8 +95,7 @@ The experiments consists of the following steps. When asked to fill in informati
  * Start the DHCP server:
 
     ```
-    # man https://linux.die.net/man/8/dhcpd
-    /usr/sbin/dhcpd -4 -f -d eth0
+       /usr/sbin/dhcpd -4 -f -d eth0
     ```
 
 ### Step 4: Automatic IPv4 Address Configuration
