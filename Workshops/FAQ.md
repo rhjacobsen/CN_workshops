@@ -5,5 +5,4 @@
 In GNS3, by default, nothing will [persist](https://docs.gns3.com/docs/emulators/docker-support-in-gns3/#persistence) after reloading your project. However, it is possible to configure appliances to store configuration in specific files such as /etc/network/interfaces and /etc/hosts as well as specified directories. To access this function, right-click on the appliance in your laboratory and choose _configure_. The /etc/network/interface file is accessible under Network configuration whereas the /etc/hosts and other directories can be found on the Advanced tab.
 
 ## How can I transfer files between my host OS and the GNS3 VM?
-
-I do not know this yet. Try to look [here](https://www.itechtics.com/share-files-between-guest-host-hyper-v/) or check out [this](https://www.youtube.com/watch?v=pQHZ3sgQNrM) video.
+It is possible to use SFTP to transfer files between a host environment and the GNS3 VM. In Windows 11 the terminal can be used or alternatively by using a client program such as [WinSCP](https://winscp.net/eng/download.php). First step is to identify the IP address of the VM. In the Hyper-V Manager, highlight the GNS3 VM and choose networking tab (see example).
