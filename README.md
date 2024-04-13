@@ -22,6 +22,8 @@ GNS3 is said to run on the Windows, Linux and the MacOS platform. It supports vi
 
 - [Installation guide (Windows 10 and 11)](https://github.com/rhjacobsen/CN_workshops/blob/master/Workshops/Installation_guide.md)
 
+You may want to consult the [FAQ](https://github.com/rhjacobsen/CN_workshops/blob/master/Workshops/FAQ.md) for hints.
+
 # Potentially useful references
 
 - [How to install GNS3 on Windows 10 by Tolga Bagci](https://www.sysnettechsolutions.com/en/install-gns3/)
