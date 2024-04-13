@@ -1,9 +1,3 @@
-# Install and Config guides
-
-GNS3 is said to work on Windows, Linux and Mac with an number of different virtualization technologies: VmWare, Hyper-V and Virtual Box. The installation of GNS3 on Windows 10 with Hyper-V has been testend and the installation guide follows below.
-
-- [Installation guide for Windows 10](Installation_guide.md)
-
 # FAQ
 
 ## Can I make persistent storage of my network configurations?
