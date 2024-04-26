@@ -53,7 +53,7 @@ DNK-2 is the preferred router to exit AS 65001. Customized local preferences are
     * On DNK-2: OSPF networks are injected into BGP with the default values.
     * On DNK-3: OSPF networks are injected into BGP with the default values.
 
-Spent a moment to study the  [VTY terminal interface](https://www.quagga.net/docs/docs-multi/VTY-Overview.html#VTY-Overview) in Quagga. 
+Spent a moment to study the  [VTY terminal interface](https://www.nongnu.org/quagga/docs/quagga.html#VTY-Overview)) in Quagga. 
 
 It is possible to store persistent quagga configuration files. First you need to add the /etc/quagga directory part of the router configuration. Right-click on the router icon and choose configure. In the [Advance tab](imgs/persistent_quagga_files.png) you add the directory to additional directories filed. Then you use the command ```write file``` in the VTY.
 
