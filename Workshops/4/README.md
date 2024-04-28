@@ -299,7 +299,7 @@ Inspect the forarding table at Router 1 over the next 10-30 sec. You should see 
 >
 >
 > ```
-
+Side note: Ambitions groups may consider to use the protocol analyzer i.e., to provide more detailed answers to the Challenge 4.9 above.
 
 > ##### Challenge 4.10
 > With the link between Router-1 and Router-2 disables, run ```traceroute``` again on "Node 1" to find the route. Write it down and briefly explain if it is as expected.
