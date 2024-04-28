@@ -331,4 +331,4 @@ Finally, we want to investigate exactly which information is exchanged in the RI
 
 ### References
 
-[Quagga suite website](http://www.quagga.net/)
+[Quagga suite website](https://www.nongnu.org/quagga/)
