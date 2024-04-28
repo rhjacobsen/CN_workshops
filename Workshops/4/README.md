@@ -55,7 +55,7 @@ Test that "Node 1" can ping eth1 on "Router 1".
 On "Node 1" run ```ip route``` this will show the routing table of the host.
 
 > ##### Challenge 4.1
-> Use the output from ```ip route``` to explain why "Node 1" cannot ping eth0 of "Router 1".
+> Use the output from ```ip route``` to explain why "Node 1" cannot ping the IP address assigned to eth0 of "Router 1".
 > ```
 >
 >
