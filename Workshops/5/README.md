@@ -124,7 +124,7 @@ router ospf
 
 Proceed to the other OSPF routers and complete the configurations.
 
-**Hint:** You can display the current Quagga configuration using the command `write terminal`. The configuration files can be stored with the command `write file´. Quagga configuration files are stored in the GNS3 persisten folder `/etc/quagga`.
+**Hint:** You can display the current Quagga configuration using the command `write terminal`. The configuration files can be stored with the command `write file`. Quagga configuration files are stored in the GNS3 persisten folder `/etc/quagga`.
 
 ### Inspecting the OSPF Network
 
