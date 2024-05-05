@@ -85,7 +85,7 @@ Copyright 1996-2005 Kunihiro Ishiguro, et al.
 Enter configuration terminal mode by using this command 
 
 ```
-configure terminal`
+configure terminal
 ```
 
 If this command fails, you have probably not used the QRouter to build the laboratory. 
