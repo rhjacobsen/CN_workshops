@@ -75,10 +75,17 @@ It is possible to store persistent quagga configuration files. First you need to
 
 ### Configuration the Interfaces
 
-To enter configure mode use following command:
+When you start the QRouter you will recieve a welcome message like this:
 
 ```
-configure terminal
+Hello, this is Quagga (version 1.0.20161017)
+Copyright 1996-2005 Kunihiro Ishiguro, et al.
+```
+
+Enter configuration terminal mode by using this command 
+
+```
+configure terminal`
 ```
 
 If this command fails, you have probably not used the QRouter to build the laboratory. 
