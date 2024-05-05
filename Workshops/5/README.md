@@ -232,3 +232,6 @@ router bgp 65001
 route-map deu1 permit 10
     set local-preference 222
 ```
+
+
+
