@@ -191,7 +191,7 @@ router bgp 65001
 ```
 
 ```
-! RUS-2
+! RUS-1
 router bgp 65005
   bgp router-id 70.0.1.1
   redistribute connected
