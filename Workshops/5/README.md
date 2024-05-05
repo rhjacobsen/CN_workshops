@@ -141,7 +141,7 @@ Proceed to the other OSPF routers and complete the configurations.
 >
 > ```
 
-* Start a Wireshark capture on DNK-1 eth0
+* Start a Wireshark capture on DNK-1 eth1
 * Stop and Start DNK-3
 
 > ##### Challenge 5.3
