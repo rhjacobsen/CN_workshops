@@ -141,8 +141,9 @@ Proceed to the other OSPF routers and complete the configurations.
 >
 > ```
 
-* Start a Wireshark capture on DNK-1 eth1
+* Start a Wireshark capture on DNK-1 eth0.
 * Stop and Start DNK-3
+* Note: Check your OSPF configurations again if you do not seen any OSPF messages besides Hello messages on eth0.
 
 > ##### Challenge 5.3
 > Inspect and explain the OSPF messages by using Wireshark. What are the main observations for the message exchange?
