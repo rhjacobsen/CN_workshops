@@ -233,12 +233,13 @@ router ospf
 >
 > ```
 
-When we look at DNK-1's route table you should be able to see 70.0.1.1. But if you look in RUS-1's route table, you should not see 20.0.1.1. Lets fix that by adding the OSPF routes to BGP
+When we look at DNK-1's route table you should be able to see 70.0.1.1. But if you look in RUS-1's route table, you should not see 20.0.1.1. Lets fix that by adding the OSPF routes to BGP. The configuration in DNK-1 should be extended with:
 
 ```
 router bgp 65001
   redistribute ospf
   neighbor 172.16.1.2 route-map deu1 in
+
 route-map deu1 permit 10
     set local-preference 222
 ```
