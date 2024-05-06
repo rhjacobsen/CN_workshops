@@ -174,15 +174,15 @@ Check: Do you find the loop-back addressed of DNK-2 and DNK-3 in the routing tab
 
 ### Configuring BGP
 
-Now you should add the BGP configuration to the 5 BGP routers
+Now you should add the BGP configuration to the 5 BGP routers (all excluding DNK-1). Not that the network addresses may need to change in accordance with you addressing plan (cf. Challenge 5.1).
 
-Between the eBGP nodes we use the ip on the interface. Between the iBGP nodes we use the loopback address
+Between the eBGP nodes we use the IP on the interfaces. Between the iBGP nodes we use the loopback address.
 
 ```
 ! DNK-2
 router bgp 65001
   bgp router-id 30.0.1.1
-  network 30.0.1.1 mask 255.255.255.255
+  network 30.0.1.1/32
   redistribute connected
   neighbor 40.0.1.1 remote-as 65001
   neighbor 40.0.1.1 update-source lo
