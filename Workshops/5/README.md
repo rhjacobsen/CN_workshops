@@ -233,7 +233,9 @@ router ospf
 >
 > ```
 
-When we look at DNK-1's route table you should be able to see 70.0.1.1. But if you look in RUS-1's route table, you should not see 20.0.1.1. Lets fix that by adding the OSPF routes to BGP. The configuration in DNK-1 should be extended with:
+When we look at DNK-1's route table you should be able to see 70.0.1.1. But if you look in RUS-1's route table, you should not see 20.0.1.1. 
+
+Lets fix that by adding the OSPF routes to BGP. The configuration in DNK-2 and DNK-3 should be extended with the following while paying attention to the different metrics in AS65003 and AS65004.
 
 ```
 router bgp 65001
