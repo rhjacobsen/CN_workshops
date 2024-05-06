@@ -222,8 +222,18 @@ Start by redistributing the BGP routes into the OSPF by adding following lines t
 router ospf
   redistribute bgp metric 2000
 ```
+> ##### Challenge 5.6
+> Look at the route table in DNK-1 again. What are the changes compared to the output on Challenge 5.5 and why have they occurred?
+> ```
+>
+>
+>
+>
+>
+>
+> ```
 
-Now look at DNK-1's route table. You should be able to see 70.0.1.1. But if you look in RUS-1's route table, you should not see 20.0.1.1. Lets fix that by adding the OSPF routes to BGP
+When we look at DNK-1's route table you should be able to see 70.0.1.1. But if you look in RUS-1's route table, you should not see 20.0.1.1. Lets fix that by adding the OSPF routes to BGP
 
 ```
 router bgp 65001
