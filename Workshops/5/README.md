@@ -244,7 +244,7 @@ route-map deu1 permit 10
     set local-preference 222
 ```
 
-Now log into RUS-1 and run the command `traceroute 20.0.1.1´.
+Now log into RUS-1 and run the command ```traceroute 20.0.1.1```.
 
 > ##### Challenge 5.7
 > What is the output of the traceroute command? Explain the routing path between RUS-1 and DNK-1.
