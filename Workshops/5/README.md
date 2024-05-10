@@ -124,7 +124,10 @@ router ospf
 
 Proceed to the other OSPF routers and complete the configurations.
 
-**Hint:** You can display the current Quagga configuration using the command `write terminal`. The configuration files can be stored with the command `write file`. Quagga configuration files are stored in the GNS3 persisten folder `/etc/quagga`.
+**Note 1:** Loopback interfaces are logical interfaces, which are virtual, software-only interfaces. Using loopback interfaces with your OSPF configuration ensures that an interface is always active for OSPF processes.
+
+**Note 2:** You can display the current Quagga configuration using the command `write terminal`. The configuration files can be stored with the command `write file`. Quagga configuration files are stored in the GNS3 persisten folder `/etc/quagga`.
+
 
 ### Inspecting the OSPF Network
 
