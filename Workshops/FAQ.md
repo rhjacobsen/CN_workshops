@@ -10,3 +10,7 @@ It is possible to use SFTP to transfer files between a host environment and the 
 First step is to identify the IP address of the VM. In the Hyper-V Manager, highlight the GNS3 VM and choose networking tab ([see example from Hyper-V manager](https://github.com/rhjacobsen/CN_workshops/blob/master/Docs/Figs/hyperv-networking.png)). In the example, I can log into the GNS3 VM using SSH with the user gns3 and the password gns3.
 
 Second step is to identify the location of a specific node from GNS3. To do this select the node, right-click and choose Show in file manager  ([see example](https://github.com/rhjacobsen/CN_workshops/blob/master/Docs/Figs/locating_gns3_node.png)). The pop up window will show the directory entry for the node.
+
+## Cannot open the console of my GNS3 VM in Hyper-V manager
+I has been stuck with this error message for awhile: "The connection to the virtual machine has ended. Try to connect again. ..."
+This [video](https://www.youtube.com/watch?v=UDmh-KQEN_U&ab_channel=NetworkingBit) provided me with a solution.
