@@ -242,7 +242,7 @@ Add default gateway routes to Node-1 and Node-2, respectively:
 > ```
 
 
-The program tcpdump can be used as an alternative to Wireshark for capturing packets. Packet capture files can be stored and loaded into Wireshark for a more user-friendly presentation. An example of use is ```tcpdump -i eth0 -w mycapture.pcap```, that will dump all packets that passes the eth0 interface to the file mycapture.pcap.
+The program tcpdump can be used as an alternative to Wireshark for capturing packets. Packet capture files can be stored and loaded into Wireshark for a more user-friendly presentation. An example of use is ```tcpdump -i eth0 -w /data/mycapture.pcap```, that will dump all packets that passes the eth0 interface to the file mycapture.pcap. Press Ctrl-C to end the packet capture. Check the FAQ on how to extract the capture will from the GNS3 VM.
 
 TIPS: You may use ```tcpdump -c 5``` to limit the number of packets (e.g., 5 packets) to be captured. Note also that the ```tcpdump -r``` option allows you to read a .pcap file and print it to the console. Remember to pay attention to the interface you are listening on.
 
@@ -260,3 +260,5 @@ TIPS: You may use ```tcpdump -c 5``` to limit the number of packets (e.g., 5 pac
 >
 >
 > ```
+
+Optional: You may confirm that Node-1 recieves the pings from Node-2 by making a packet capture on Node-1's eth0.
