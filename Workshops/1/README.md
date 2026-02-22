@@ -68,7 +68,7 @@ The experiments consists of the following steps. When asked to fill in informati
    ```
 
    > ##### Challenge 1.1
-   > Identify the ARP and Ping packets captured by Wireshark. Briefly explain the flow of the ARP and Ping packets that have been sent and received as an effect of the ping-command:
+   > Identify the ARP and Ping packets captured by Wireshark. Briefly explain the flow of the ARP and Ping packets that have been sent and received as an effect of the ping-command. Explain the contenct of the ARP cache on Node-1 (use the command `arp -a`).
    > ```
    >
    >
