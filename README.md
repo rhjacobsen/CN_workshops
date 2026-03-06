@@ -23,12 +23,17 @@ GNS3 is said to run on the Windows, Linux and the MacOS platform. It supports vi
 * The installation process is as follows: *
 
 1. Download GNS3 GUI and install on your local machins (Windows, Linux, or MacOS)
-2. Install virtualisation software (hypervisor) on you local machine (VMWare, Hyper-V, or Virtual box)
+2. Install virtualisation software (hypervisor) on you local machine (VMware, Hyper-V, or Virtual box)
 3. Download the GNS3 virtual machine (GNS3 VM) and unzip it to your harddisk. Import/add the virtual machine to your hypervisor.
+4. Start GNS3 GUI - You may need to have Admin rights
+5. Go to Preferences and pick the choosen VM technology. Then select the GNS3 VM.
+6. Check that the "Server Summary" has two servers runing with green lamps. It may take a little while.
+7. Import the three special appliances we use in the workshop from the repository: Node, Router, QRouter
+8. Start you first project in GNS3.
    
 
 
-Detailed installaction guide for Windows:
+Detailed installation guide for Windows:
 
 - [Installation guide (Windows 10 and 11)](https://github.com/rhjacobsen/CN_workshops/blob/master/Workshops/Installation_guide.md)
 
