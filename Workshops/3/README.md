@@ -8,7 +8,7 @@ This workshop is concerned with the implementation of a client and a server for 
 
 There are no requirements regarding the programming language (e.g., Perl, Python, C/C++, Java etc.) used to implement the client and server applications. The client and the server are required to run on the Linux machines and must be implemented for the UDP-based service and the TCP-based service. Make sure that your timestamp is compliant with the examples in [RFC 868](http://tools.ietf.org/html/rfc868).
 
-Note, that the virtual nodes in GNS3 comes with a `python3` and `perl´ intepreter installed, and that the use of an intepreted language makes it easier to modify the program on the node. However, it is not required to use the GNS3 virtual environment for testing.
+Note, that the virtual nodes in GNS3 comes with a `python3` and `perl` intepreter installed, and that the use of an intepreted language makes it easier to modify the program on the node. However, it is not required to use the GNS3 virtual environment for testing.
 
 #### Optional and not a mandatory part of the workshop:
 The advanced student may want to implement the following features in addition to the pure client-server communication.
