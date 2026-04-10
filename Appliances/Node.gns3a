@@ -8,10 +8,10 @@
     "registry_version": 3,
     "status": "experimental",
     "maintainer": "rhjacobsen",
-    "maintainer_email": "rhj@eng.au.dk",
+    "maintainer_email": "rhj@ece.au.dk",
     "docker": {
         "adapters": 1,
-        "image": "kalledk/itifn:node",
+        "image": "rhjacobsen/cn:node",
         "console_type": "telnet",
         "start_command": "/bin/entrypoint.sh"
     }
