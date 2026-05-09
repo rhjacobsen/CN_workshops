@@ -329,6 +329,8 @@ Finally, we want to investigate exactly which information is exchanged in the RI
 >
 > ```
 
+To inspect the RIP routing table you can use the Quagga command line interface (CLI). This is started withtth command 'vtysh'. Type `show ip rip`hereafter.
+
 ### References
 
 [Quagga suite website](https://www.nongnu.org/quagga/)
